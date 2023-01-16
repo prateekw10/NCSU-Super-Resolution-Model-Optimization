@@ -1,4 +1,4 @@
-# PyTorch VDSR
+# PyTorch VDSR Super Resolution Model Optimization using NNI
 Implementation of CVPR2016 Paper: "Accurate Image Super-Resolution Using 
 Very Deep Convolutional Networks"(http://cv.snu.ac.kr/research/VDSR/) in PyTorch
 

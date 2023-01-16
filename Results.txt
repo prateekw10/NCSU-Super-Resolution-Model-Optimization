@@ -1,0 +1,206 @@
+(FP38) [sgupta1@v027 pytorch-vdsr-master]$ python eval.py --cuda --dataset Set5 --model checkpoint/model_epoch_l1filter_0.25.pth
+=> use gpu id: '0'
+Processing  Set5_mat/baby_GT_x2.mat
+Processing  Set5_mat/head_GT_x2.mat
+Processing  Set5_mat/woman_GT_x2.mat
+Processing  Set5_mat/bird_GT_x2.mat
+Processing  Set5_mat/butterfly_GT_x2.mat
+Scale= 2
+Dataset= Set5
+PSNR_predicted= 33.714069989338554
+PSNR_bicubic= 33.69039381292539
+It takes average 0.2750957489013672s for processing
+Processing  Set5_mat/woman_GT_x3.mat
+Processing  Set5_mat/butterfly_GT_x3.mat
+Processing  Set5_mat/baby_GT_x3.mat
+Processing  Set5_mat/bird_GT_x3.mat
+Processing  Set5_mat/head_GT_x3.mat
+Scale= 3
+Dataset= Set5
+PSNR_predicted= 30.422996996662288
+PSNR_bicubic= 30.40769234323546
+It takes average 0.0028064727783203127s for processing
+Processing  Set5_mat/baby_GT_x4.mat
+Processing  Set5_mat/bird_GT_x4.mat
+Processing  Set5_mat/head_GT_x4.mat
+Processing  Set5_mat/butterfly_GT_x4.mat
+Processing  Set5_mat/woman_GT_x4.mat
+Scale= 4
+Dataset= Set5
+PSNR_predicted= 28.461519990070656
+PSNR_bicubic= 28.41454827257395
+It takes average 0.002553558349609375s for processing
+
+
+(FP38) [sgupta1@v027 pytorch-vdsr-master]$ python eval.py --cuda --dataset Set5 --model checkpoint/model_epoch_level_0.25.pth
+=> use gpu id: '0'
+Processing  Set5_mat/baby_GT_x2.mat
+Processing  Set5_mat/head_GT_x2.mat
+Processing  Set5_mat/woman_GT_x2.mat
+Processing  Set5_mat/bird_GT_x2.mat
+Processing  Set5_mat/butterfly_GT_x2.mat
+Scale= 2
+Dataset= Set5
+PSNR_predicted= 37.1678804452598
+PSNR_bicubic= 33.69039381292539
+It takes average 0.2685552597045898s for processing
+Processing  Set5_mat/woman_GT_x3.mat
+Processing  Set5_mat/butterfly_GT_x3.mat
+Processing  Set5_mat/baby_GT_x3.mat
+Processing  Set5_mat/bird_GT_x3.mat
+Processing  Set5_mat/head_GT_x3.mat
+Scale= 3
+Dataset= Set5
+PSNR_predicted= 33.393720647597334
+PSNR_bicubic= 30.40769234323546
+It takes average 0.00391697883605957s for processing
+Processing  Set5_mat/baby_GT_x4.mat
+Processing  Set5_mat/bird_GT_x4.mat
+Processing  Set5_mat/head_GT_x4.mat
+Processing  Set5_mat/butterfly_GT_x4.mat
+Processing  Set5_mat/woman_GT_x4.mat
+Scale= 4
+Dataset= Set5
+PSNR_predicted= 31.057565452894515
+PSNR_bicubic= 28.41454827257395
+It takes average 0.0026168346405029295s for processing
+
+
+(FP38) [sgupta1@v027 pytorch-vdsr-master]$ python eval.py --cuda --dataset Set5 --model checkpoint/model_epoch_l2filter_0.25.pth
+=> use gpu id: '0'
+Processing  Set5_mat/baby_GT_x2.mat
+Processing  Set5_mat/head_GT_x2.mat
+Processing  Set5_mat/woman_GT_x2.mat
+Processing  Set5_mat/bird_GT_x2.mat
+Processing  Set5_mat/butterfly_GT_x2.mat
+Scale= 2
+Dataset= Set5
+PSNR_predicted= 33.75646235839965
+PSNR_bicubic= 33.69039381292539
+It takes average 0.27863316535949706s for processing
+Processing  Set5_mat/woman_GT_x3.mat
+Processing  Set5_mat/butterfly_GT_x3.mat
+Processing  Set5_mat/baby_GT_x3.mat
+Processing  Set5_mat/bird_GT_x3.mat
+Processing  Set5_mat/head_GT_x3.mat
+Scale= 3
+Dataset= Set5
+PSNR_predicted= 30.447457069612607
+PSNR_bicubic= 30.40769234323546
+It takes average 0.0028589725494384765s for processing
+Processing  Set5_mat/baby_GT_x4.mat
+Processing  Set5_mat/bird_GT_x4.mat
+Processing  Set5_mat/head_GT_x4.mat
+Processing  Set5_mat/butterfly_GT_x4.mat
+Processing  Set5_mat/woman_GT_x4.mat
+Scale= 4
+Dataset= Set5
+PSNR_predicted= 28.46410425922803
+PSNR_bicubic= 28.41454827257395
+It takes average 0.002590847015380859s for processing
+
+
+(FP38) [sgupta1@v027 pytorch-vdsr-master]$ python eval.py --cuda --dataset Set5 --model checkpoint/model_epoch_fpgm_0.25.pth
+=> use gpu id: '0'
+Processing  Set5_mat/baby_GT_x2.mat
+Processing  Set5_mat/head_GT_x2.mat
+Processing  Set5_mat/woman_GT_x2.mat
+Processing  Set5_mat/bird_GT_x2.mat
+Processing  Set5_mat/butterfly_GT_x2.mat
+Scale= 2
+Dataset= Set5
+PSNR_predicted= 33.72878162537498
+PSNR_bicubic= 33.69039381292539
+It takes average 0.26751012802124025s for processing
+Processing  Set5_mat/woman_GT_x3.mat
+Processing  Set5_mat/butterfly_GT_x3.mat
+Processing  Set5_mat/baby_GT_x3.mat
+Processing  Set5_mat/bird_GT_x3.mat
+Processing  Set5_mat/head_GT_x3.mat
+Scale= 3
+Dataset= Set5
+PSNR_predicted= 30.435627126367727
+PSNR_bicubic= 30.40769234323546
+It takes average 0.002706766128540039s for processing
+Processing  Set5_mat/baby_GT_x4.mat
+Processing  Set5_mat/bird_GT_x4.mat
+Processing  Set5_mat/head_GT_x4.mat
+Processing  Set5_mat/butterfly_GT_x4.mat
+Processing  Set5_mat/woman_GT_x4.mat
+Scale= 4
+Dataset= Set5
+PSNR_predicted= 28.443468348960522
+PSNR_bicubic= 28.41454827257395
+It takes average 0.002424001693725586s for processing
+
+
+
+(FP38) [sgupta1@v027 pytorch-vdsr-master]$ python eval.py --cuda --dataset Set5 --model checkpoint/model_epoch_level_0.5.pth
+=> use gpu id: '0'
+Processing  Set5_mat/baby_GT_x2.mat
+Processing  Set5_mat/head_GT_x2.mat
+Processing  Set5_mat/woman_GT_x2.mat
+Processing  Set5_mat/bird_GT_x2.mat
+Processing  Set5_mat/butterfly_GT_x2.mat
+Scale= 2
+Dataset= Set5
+PSNR_predicted= 36.247535852015176
+PSNR_bicubic= 33.69039381292539
+It takes average 0.26570887565612794s for processing
+Processing  Set5_mat/woman_GT_x3.mat
+Processing  Set5_mat/butterfly_GT_x3.mat
+Processing  Set5_mat/baby_GT_x3.mat
+Processing  Set5_mat/bird_GT_x3.mat
+Processing  Set5_mat/head_GT_x3.mat
+Scale= 3
+Dataset= Set5
+PSNR_predicted= 32.46195546878132
+PSNR_bicubic= 30.40769234323546
+It takes average 0.0036806106567382813s for processing
+Processing  Set5_mat/baby_GT_x4.mat
+Processing  Set5_mat/bird_GT_x4.mat
+Processing  Set5_mat/head_GT_x4.mat
+Processing  Set5_mat/butterfly_GT_x4.mat
+Processing  Set5_mat/woman_GT_x4.mat
+Scale= 4
+Dataset= Set5
+PSNR_predicted= 30.20192856256138
+PSNR_bicubic= 28.41454827257395
+It takes average 0.002987051010131836s for processing
+
+
+
+
+
+(FP38) [sgupta1@v027 pytorch-vdsr-master]$ python eval.py --cuda --dataset Set5 --model checkpoint/model_epoch.pth
+=> use gpu id: '0'
+Processing  Set5_mat/baby_GT_x2.mat
+Processing  Set5_mat/head_GT_x2.mat
+Processing  Set5_mat/woman_GT_x2.mat
+Processing  Set5_mat/bird_GT_x2.mat
+Processing  Set5_mat/butterfly_GT_x2.mat
+Scale= 2
+Dataset= Set5
+PSNR_predicted= 37.580855061356274
+PSNR_bicubic= 33.69039381292539
+It takes average 0.25902042388916013s for processing
+Processing  Set5_mat/woman_GT_x3.mat
+Processing  Set5_mat/butterfly_GT_x3.mat
+Processing  Set5_mat/baby_GT_x3.mat
+Processing  Set5_mat/bird_GT_x3.mat
+Processing  Set5_mat/head_GT_x3.mat
+Scale= 3
+Dataset= Set5
+PSNR_predicted= 33.71140801555068
+PSNR_bicubic= 30.40769234323546
+It takes average 0.003686666488647461s for processing
+Processing  Set5_mat/baby_GT_x4.mat
+Processing  Set5_mat/bird_GT_x4.mat
+Processing  Set5_mat/head_GT_x4.mat
+Processing  Set5_mat/butterfly_GT_x4.mat
+Processing  Set5_mat/woman_GT_x4.mat
+Scale= 4
+Dataset= Set5
+PSNR_predicted= 31.381251769311213
+PSNR_bicubic= 28.41454827257395
+It takes average 0.0021124362945556642s for processing

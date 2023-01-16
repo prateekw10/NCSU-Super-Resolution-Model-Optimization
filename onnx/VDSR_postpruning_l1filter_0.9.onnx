@@ -1,0 +1,1262 @@
+pytorch1.13.0:¸£
+¢
+actual_input_1
+input.weight/input/Conv_output_0/input/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2˙/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(35): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+∂
+/input/Conv_output_0/relu/Relu_output_0
+/relu/Relu"Relu2ˆ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(35): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+Ï
+/relu/Relu_output_0
+	learned_03/residual_layer/residual_layer.0/conv/Conv_output_0*/residual_layer/residual_layer.0/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ü
+3/residual_layer/residual_layer.0/conv/Conv_output_03/residual_layer/residual_layer.0/relu/Relu_output_0*/residual_layer/residual_layer.0/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+å
+3/residual_layer/residual_layer.0/relu/Relu_output_0
+	learned_13/residual_layer/residual_layer.1/conv/Conv_output_0*/residual_layer/residual_layer.1/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ü
+3/residual_layer/residual_layer.1/conv/Conv_output_03/residual_layer/residual_layer.1/relu/Relu_output_0*/residual_layer/residual_layer.1/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+å
+3/residual_layer/residual_layer.1/relu/Relu_output_0
+	learned_23/residual_layer/residual_layer.2/conv/Conv_output_0*/residual_layer/residual_layer.2/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ü
+3/residual_layer/residual_layer.2/conv/Conv_output_03/residual_layer/residual_layer.2/relu/Relu_output_0*/residual_layer/residual_layer.2/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+å
+3/residual_layer/residual_layer.2/relu/Relu_output_0
+	learned_33/residual_layer/residual_layer.3/conv/Conv_output_0*/residual_layer/residual_layer.3/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ü
+3/residual_layer/residual_layer.3/conv/Conv_output_03/residual_layer/residual_layer.3/relu/Relu_output_0*/residual_layer/residual_layer.3/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+å
+3/residual_layer/residual_layer.3/relu/Relu_output_0
+	learned_43/residual_layer/residual_layer.4/conv/Conv_output_0*/residual_layer/residual_layer.4/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ü
+3/residual_layer/residual_layer.4/conv/Conv_output_03/residual_layer/residual_layer.4/relu/Relu_output_0*/residual_layer/residual_layer.4/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+å
+3/residual_layer/residual_layer.4/relu/Relu_output_0
+	learned_53/residual_layer/residual_layer.5/conv/Conv_output_0*/residual_layer/residual_layer.5/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ü
+3/residual_layer/residual_layer.5/conv/Conv_output_03/residual_layer/residual_layer.5/relu/Relu_output_0*/residual_layer/residual_layer.5/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+å
+3/residual_layer/residual_layer.5/relu/Relu_output_0
+	learned_63/residual_layer/residual_layer.6/conv/Conv_output_0*/residual_layer/residual_layer.6/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ü
+3/residual_layer/residual_layer.6/conv/Conv_output_03/residual_layer/residual_layer.6/relu/Relu_output_0*/residual_layer/residual_layer.6/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+å
+3/residual_layer/residual_layer.6/relu/Relu_output_0
+	learned_73/residual_layer/residual_layer.7/conv/Conv_output_0*/residual_layer/residual_layer.7/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ü
+3/residual_layer/residual_layer.7/conv/Conv_output_03/residual_layer/residual_layer.7/relu/Relu_output_0*/residual_layer/residual_layer.7/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+å
+3/residual_layer/residual_layer.7/relu/Relu_output_0
+	learned_83/residual_layer/residual_layer.8/conv/Conv_output_0*/residual_layer/residual_layer.8/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ü
+3/residual_layer/residual_layer.8/conv/Conv_output_03/residual_layer/residual_layer.8/relu/Relu_output_0*/residual_layer/residual_layer.8/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+å
+3/residual_layer/residual_layer.8/relu/Relu_output_0
+	learned_93/residual_layer/residual_layer.9/conv/Conv_output_0*/residual_layer/residual_layer.9/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ü
+3/residual_layer/residual_layer.9/conv/Conv_output_03/residual_layer/residual_layer.9/relu/Relu_output_0*/residual_layer/residual_layer.9/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+è
+3/residual_layer/residual_layer.9/relu/Relu_output_0
+
+learned_104/residual_layer/residual_layer.10/conv/Conv_output_0+/residual_layer/residual_layer.10/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+¢
+4/residual_layer/residual_layer.10/conv/Conv_output_04/residual_layer/residual_layer.10/relu/Relu_output_0+/residual_layer/residual_layer.10/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ê
+4/residual_layer/residual_layer.10/relu/Relu_output_0
+
+learned_114/residual_layer/residual_layer.11/conv/Conv_output_0+/residual_layer/residual_layer.11/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+¢
+4/residual_layer/residual_layer.11/conv/Conv_output_04/residual_layer/residual_layer.11/relu/Relu_output_0+/residual_layer/residual_layer.11/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ê
+4/residual_layer/residual_layer.11/relu/Relu_output_0
+
+learned_124/residual_layer/residual_layer.12/conv/Conv_output_0+/residual_layer/residual_layer.12/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+¢
+4/residual_layer/residual_layer.12/conv/Conv_output_04/residual_layer/residual_layer.12/relu/Relu_output_0+/residual_layer/residual_layer.12/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+£
+4/residual_layer/residual_layer.12/relu/Relu_output_0
+residual_layer.13.conv.weight4/residual_layer/residual_layer.13/conv/Conv_output_0+/residual_layer/residual_layer.13/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+¢
+4/residual_layer/residual_layer.13/conv/Conv_output_04/residual_layer/residual_layer.13/relu/Relu_output_0+/residual_layer/residual_layer.13/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+£
+4/residual_layer/residual_layer.13/relu/Relu_output_0
+residual_layer.14.conv.weight4/residual_layer/residual_layer.14/conv/Conv_output_0+/residual_layer/residual_layer.14/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+¢
+4/residual_layer/residual_layer.14/conv/Conv_output_04/residual_layer/residual_layer.14/relu/Relu_output_0+/residual_layer/residual_layer.14/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+£
+4/residual_layer/residual_layer.14/relu/Relu_output_0
+residual_layer.15.conv.weight4/residual_layer/residual_layer.15/conv/Conv_output_0+/residual_layer/residual_layer.15/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+¢
+4/residual_layer/residual_layer.15/conv/Conv_output_04/residual_layer/residual_layer.15/relu/Relu_output_0+/residual_layer/residual_layer.15/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+£
+4/residual_layer/residual_layer.15/relu/Relu_output_0
+residual_layer.16.conv.weight4/residual_layer/residual_layer.16/conv/Conv_output_0+/residual_layer/residual_layer.16/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+¢
+4/residual_layer/residual_layer.16/conv/Conv_output_04/residual_layer/residual_layer.16/relu/Relu_output_0+/residual_layer/residual_layer.16/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+£
+4/residual_layer/residual_layer.16/relu/Relu_output_0
+residual_layer.17.conv.weight4/residual_layer/residual_layer.17/conv/Conv_output_0+/residual_layer/residual_layer.17/conv/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ñ/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+¢
+4/residual_layer/residual_layer.17/conv/Conv_output_04/residual_layer/residual_layer.17/relu/Relu_output_0+/residual_layer/residual_layer.17/relu/Relu"Relu2Ä/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/functional.py(1455): relu
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/activation.py(102): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(12): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/container.py(204): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(36): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+À
+4/residual_layer/residual_layer.17/relu/Relu_output_0
+output.weight/output/Conv_output_0/output/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2˙/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(459): _conv_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/conv.py(463): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(37): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+
+ˇ
+
+/output/Conv_output_0
+actual_input_1output1/Add"Add2¡
+/ocean/projects/cis220070p/sgupta1/Final_Project/pytorch-vdsr-master/vdsr.py(38): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1178): _slow_forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(118): wrapper
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(127): forward
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/nn/modules/module.py(1190): _call_impl
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/jit/_trace.py(1184): _get_trace_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(891): _trace_and_get_graph_from_model
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(987): _create_jit_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1111): _model_to_graph
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(1529): _export
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/onnx/utils.py(504): export
+pruning_training.py(180): main
+pruning_training.py(234): <module>
+	torch_jit*¸B	learned_0J‰Óm=TË5<ßàNΩˆQ>“ÄÉΩo$Aªòü<iº1º∂∑<∞>25§ΩS$‰Ω¯õ¡Ω@Ú=!7
+æKŒ<À0*<∞‹>ÓO>ÓSjΩ+º»ùÔΩ6Ñ¸ºØK2æ5Í<…™q∫r∏ =∏ﬁΩ˚áæ›€ =\Ú∫N√Ω)Ü#>y“Y>Î¥ª0Ü->¨ñB<prPΩSÇw<3@m=ŸÑ=gÒ∞Ω}M∆ΩVÿ1ΩXi(=í¿‘=4s∞=ßÅΩ)‘≥ºUÜzΩÇÉ¯</P(Ω” Ω¶¡±<æ0öΩ&_›=lVΩ§œ=A%ß;‡πiΩsU‚=Ò◊p=≠Ê<Õ$›Ω∞yΩ≈±™Ω"”=˝5`=.»Ω%≠ºº÷b≈=3 ¢Ωñ1rΩƒ˚rΩ¯»äΩF&=ƒ„ºÑ∏»ºŒ∫Ω‘/·<ñ)ΩCîàΩälû=fΩP=ÑYãπé1…Ω¨|Ω"Y5ΩπuR=[pc=ÿéX=yc√=<‹ΩYJ)=^»ÅΩ±i8=ùÙ6Ωî·∂ΩxΩπFú<≤◊Ω?ÈI<ÁùÅΩ˝&¶ΩÏW≥Ω?˜ìΩï*=ib›<9 å<‰'‰<∑Q7ª©Ë™=P†< DΩ-8ÅΩ…∏=\?í=’¡ºx∂=—òJ=[Y=øπíΩ˙Õx=Bg2º”5S=ÚªΩ<>9æøÑ#>s=ΩI;Ëºﬁ º¸
+©ΩÁ–g>sn…º‰õ´Ωà˝”=çx>ÏÙæÛ“m={<á=Ú¸&>e®’Ω‚Ì/>ÆúΩÜflºÜ∆Ü>Y≥ä=˜Çë>,âΩŒ†Ω>@”=ynö>j∆á<3@$>˛¶$=÷æjW=Û€)<p->	æ9X9æ˙≤M>á Ω‡íΩ,„q=ÈÚ<L£Ω†1È=pëΩqÛÑº_œ=Ωm@¿:≥5=Ïÿ«ΩËtSΩ‚ﬁ=¨∫Ωœì	=ïÁ=Ú Ω∆ﬂn<›ã=1Rù=Ö˘Òº.]•=÷√Ω<˛çÑº"m=†wÖ=KY?3WÀΩÀ´ﬁΩ.D‰=õ⁄ΩıÙˇ=†¸0æL%‚>ﬂ)=F≠æÉ€∞ΩøÕZ<Æ÷k>ô◊õ>,aæYı_>#&,>€û=<¶ægÆdΩ;2›ΩÛ∑=ã8F?‚jyæûçæ%ŒD=ZUæCu>æoÌ<LqD>Øæº¢ùÈΩLÆ°>…9=:‘<øøº™Ì;æ∑c%<ÇœΩŒQ5Ω[—ÑΩZ¯•ºÍ„°=fMô<≈È ºETP=l4ÉºÄë*;e≈<Ø™Ü=28=˚˜º%˙< §õΩÄäÇ=KΩ‚‚º“eyΩˇ∞g=R∫ºCi£Ω›ñ>Ω}îÀ=∫ï=jzì=Ì+«Ω!∆íªB\ë<ü=™XΩ´€=ˇ-D=Ù	ZæH¨ôΩù?¢ΩDg>(ë>Uàè=ág°=f£=‚πéΩIhæ^Ç>ΩHäΩ‰˜;=7ú>À"ü;;]*>ÆÕΩ¯Öªæsb=∫bd:|DÌ=ç6ÇΩ~™®=%§;ä€ ΩÓ¸<†π=r{pºtu_ΩSç=ÜΩl|Œ=¨á=™MJ=´ó›Ω‚/∫º4ëΩƒ∞∂ΩÅ≈K=l‘Ωƒî´;a‚∂Ω@◊ºúøW=Øœ∆ΩË8º=,Ë9<oﬁ‡Ω'T=˚J={ï=ø…ë=hQ‡=U2™;µnö=≈—Ò=ô\ΩxûªÊŸ≤=e™x=Rh—=9S.ΩÆŒ∂ºaæ¸ªùWæÓ≠Ä<ü¯
+æ0˙—Ω"Õ©Ωœ†yª~ë¢ªÌôÔ=x≥ª$€û∂S*>“uèΩ	ŒÙΩÍ›ıºÔÚ√ºe(Å=·∂;êÄcΩ#Ë”Ω€óÂΩiêÇ=	.qΩÊNÉΩ¥È≤Ω]ˆ=eÔì<Ø†=:ÄºQÙ,Ω∞áN=Œ+Ωcf÷=G#XΩ´hj=~ñˆ<ÊÑ·Ω˝ã=∑≠≈=π≈<ì∂Ωú%„Ω+æ¬Ω÷’ó<Ö<jBK=óC=ÏgΩŸ¸ŸΩª|
+ΩO^)=âÃΩ¸Ìp=•∞ø<<p=†1Ã=2‹ûºˇ»-ΩÌ5ﬂº)µ;ƒpÛΩ›ë=*Ã†∫ã/=|t%=|íπΩdÿ·ΩM9mΩlÖΩü=£ΩR⁄â=CÅ¯<›(∫8pËΩf◊¨ªˆ‚’ΩxÍΩ±–îº:Ÿ∫=≤ÙíΩ7üΩœ=˙j"=Ój∫<+„<ÏéóΩ›ƒ¶ªøƒ;v¢ªO•Ø<aCΩõ}å=tù=1´±Ω€;´ΩD(wΩwπä<5ƒΩG∂¿=!™≤=¿…=rvA=£è;ﬁgnΩ¬;üΩºu”=JRì=PeΩbˆîΩõõé=<-ñªHªí=ê-'Ω^¿ÀΩ*„§<µ˛¬ΩàÚ-Ω*¸B	learned_1J‰kUã=éÜæxÇ—Ω\ˇ=§W¢=ÄÄΩ˚M>üÉg=ZÏ=A7î=ù=nE∏Ω7–X=§«Ω ô=±≈4=}Îx<V¨Çº°hÖΩÚŒU<ı#ΩÊO<=••¡=gCæG˛†ºÑtˆ<Ú¥öΩe‰˙=Hé=≠”(Ω¯<¨:H=ÊŸÆ=±jæŒà=k(ΩgÓ,=æL>§VlΩ±§9ΩYt>®Å§Ωâ“=WA±=Ö5æ C«Ωû˛º<º;©5≥=0¨ª…ÛΩd$ººó˘ºbÕ∂=„Wp<Ï ∂º>à+Ω¥ºÂºj]˝<BYª'zNΩ¶È9=âs>=Ñ>’8>Æ7Ë∫(æNΩ–ﬁ«= ËnΩÍº.É<Ωüf>Ω-÷≈=≠å”=∂ﬂ®º  =∆ƒ<Ï˜âΩUÈπΩ„‡≠ΩK˘£ºü≤∫=§V:©Ã=“Ï>>éäóΩqDè=}c™>ﬁPÅΩLzVæhh¥<xT¶<Xæ+æú*b=dêU>r‘O9
+NSæﬁ!‰Ωú9Ö>ØB4ΩÉ]=Œï >{`>ááXΩÛêµΩ™ëCænò9ÀÆº≤ÌœΩ£‹«=’¢ó=^yΩhÈ<£.Ù;’ä< n4Ω«
+=ø¶‰º5‰ì=={	Ω¯Êà=ÃÙ<MΩ≈J<>œp=gåº‰?º9Ë>f±å=§/òº§¯=ãqæÙ–O>2Ë:9ªüûΩ…	)=Ä%ﬁ<∫PÌª@lÉΩËaU=’√‹=ùo=6∂†:K6ôΩDmΩæZÅ=Ü˙·<π2Ω~—@>^Âêª´ó(ΩDEã>ë/!>]ÜFæ°˛#>˙˘G>‚Êo>+EΩ=uÜ'>}(¨æ0÷ÃΩéâûΩ¡é‰ΩQI>~-Ω<ﬂ6=†Ü<>ﬁ√∂=1T&ΩΩV!º¿Å˙ºîÄ=ñ]`º•…=ÉKΩp´Ω¨Ü=ü⁄c=àÿî=#´Ω∞ÙéΩEÓÁ;µ=e=Gº≤ÊΩïaCΩÏº@=_m®=lc=‰q‰ºùeΩ[ﬁº¢„= (ª=áe=ÇãºÕàÀΩ,,=˙¥q=:#àªæV„Ωq?⁄={◊ºX∆“Ω, ~ΩÍ›]=ñ€$<ôïΩÍä…Ω‘D&º-,}Ω }õ=>ƒ*Ω\&Ω„}Ωm‘√Ωœ|Ωå<Ö=ﬂ≠fΩ9∑'Ω€É∫ºeKÕΩ”Ã?Ω#cΩë\®Ωπ|Á=y´Í9»j2Ω≤›ΩªHŒ=ª≈∏=?ÑîΩó{º’’Ω;˝Ω€d…;b™<—HΩè,öΩÚ⁄$<™ßïΩÏBaΩÖı=âæ/<“ßõΩ°∫ ºi@ôºåbØΩ„◊N=5]j=â∞}ΩÚ/‹<Në>Èu˘ΩøΩ‘„±º’S‚Ω<s”∫⁄´ˆ<W’w=†c©<“MØ<,ÙN<∫lJªkÌ†=È˝ºÖÃ=Ç=\˝àΩUGºèºO>≈Û)ΩÉ–Æ<ÄhΩ<C¶<óh±=æmóΩπrÆ<2Á;π‰=ﬂ®æªÅ:ø=x„{=•¥æÖsæü•V=âˆcæuâ<á,3=I7>∂AH=»OSºÃ(ƒΩ˛wæˇÊÃΩ∏mœΩáÌNΩ√í=‚M=5¯π=¯öÖ=˝Ü=è«âΩˆ`7Ω['‡=°≥ıª.Dª=<¥’=¿àì<4÷CΩÙÍ?=ŸôÆ=rà+ΩKl¨Ωﬂ∆£º7ÕlΩ=2A=E)ûº|>ΩÁö=Ø°’º∂®™=pyÚ=dƒÅ=g`◊Ω6°=Eã∂Ωúl≤Ω
+==FEóº¡=åSπº‹ìœ<|+é=ú Å=jæXGΩÂïÑΩ5ºËΩ·uº%pç=π~=ûSƒ=‡π¬;_·.=âZ;c»<fÇºıg÷º(∂'æ˚4b=ˇt‹ªŸ¸ΩòüºG≤=ÓIñ=~ æV3Ω8 æÊQ;ÕÅ <ü1ºâù–Ωc›¨=ÎGÈ=µŒ≥Ω«‘=˝√=}v∑ΩbŒåΩf·çΩœ∞ó=}Ó=Ctï<´àΩÈOUΩ°ö÷=;áH<p‚Ωùπ3=º*–=N¸v=våã<VbΩ®&jΩ=K<©–ÄΩ¢ó¢ΩΩq]Ωˇ≤!ºNgâ=¶@k=ÓÔù;õôΩ˝¬¨ΩoÍÉ=EX¢>6äÈ=◊dæÕ£&Ω	Ω◊=$5ºõ⁄æOø >í`>yÚ0æÄj]æAJ>ÓJ0=ï˛ı>Å„Ω…πR>H^)?˛røx æ‚p•ºµlÆΩ°»…Ω√ÅU>ÿÊDªÈåÉ>~∏b=ÀÈ"ΩH>H«=òŒæ=C2Ñ:‚|=»€=Q~æ†æñ
+àΩƒ…Á∫¸÷„=UˇÇΩ,Â+Ω˚#ÀΩ–H∑ΩØ∞<ï!=ﬁΩ*¸B	learned_2J‰Œ#;¶¨Ö;√·;÷a=„Í>^æ0Ÿ>éTºΩ√=FΩ;ıõΩ{Í˝;M1'æiËæ&!=ø⁄ﬂΩÄ>gèæB~≈>√‰Zæ≥=∂=ì*>⁄<´Ω&çYΩˆnDæ˚ΩΩ≤>J˙)>4ã4º∞wïΩôv=Ñ√};äµø=ÁpºÖ√€=N$∞=·@=…E˙=…9ˇ=[Q”=òÀw={á9<K(±Ω´ﬂ`=4dΩs3ﬁ=¸`ÁΩ”Öñ=∂Ωúúã=rXΩÙ~¯ªnï≈=@&©Ωu≠ˆ<})}>˝p£æÌc_>±ﬁ"=’æR?Ø >>›π
+ΩxyΩrPÛª˜ºÊΩîa>o|Ω=% <ΩòΩ‡H>Áﬁ«Ω¢ º•GyΩØH^ªÍâm;≈ƒÄ=ùˆ∫ª¸iõΩ˝†éΩVx†ΩÀ,n=p∑x=yïπ<ƒÿQ=ìπO5>°Äõ<ƒô=xF>¶7™ªùX#Ωü≈‚;\d‘=<ÿ2=b¨=ÛÔµΩé‘;æ^Ω∆?=∂b>c/á=±Vƒ=¥øâΩ„‡“=d†=Ì@†=ç	à=4hΩ∫‘=rÇ;ˇ/=v¨g=%ä~=/t= å=üÔ'=åˆΩRX=Á◊öΩ3Üæ≤⁄¥<G≈éΩﬂ—WΩ¬5æ¿O5æZûΩΩ(Ω=n÷ΩÖ+ =7Ωa'®=Å®e=É”å<ñOü<ÏÙ˘πLh¨=¿¨õº[Â;Ω"úΩ.¨ΩˆM2ΩÔX+=®ç=5öâ=«ò£Ωª …ΩçGÁΩA√ªˆ¢ºßåΩg©ãºÈ7ßΩT ÅΩU[Ç=c9∑=1⁄∂=Ç£Q<C»ΩZÁ>=&–’ΩZÎ¶<≥ùû=üaö<≠éÄº:√ú=ª¨’Ω®Kœ=ÎaΩÖòΩÄá”=‚!»=14ÈΩ¡ñ¬=˘mhΩ|@Ëºõ†∏Ω÷Õ)=R-=Tì<Q¸Å=ÌtÆΩÍwª˙¿ΩÈ˙˜Ω@°˘ºuud<≤’G<á…e=àç
+>EuúΩ´X1Ωµ$Ùª‹FÄ=ñ}—=ÅÑ@º∏fΩ˝tæU;Næﬁiv=7 w>PÚØ<Ó∫√ΩÍó=ŸbÃΩ∆:“Ω§ECΩ*œ=ôˇ=G?÷ ΩXxﬁΩQë±<ËÈsæ
+WÄæé`L>*…KΩUÅ<?jΩ´™\=ñêêΩ®=∂ª€KΩ¥ø=∞‹?=ˇnNΩ˘R=ºÁF=Œ‹9ΩÜ>‹=ã5Â=òï“Ω5T7=§á†<8Oıªˇ…ù=›5ü=Å®zΩã†®Ωze<‡˜=∞ÎªπuŸΩÀÈ√>µÔº∂æÀ`Í∫>ùeæ≈Ω◊ÉæÛ>Ω=‹†U>_`<Û¶ΩIou=¸:∏ΩU®+Ω¯óªΩ"ä>C
+”=˚Ä>∏-qΩˆäAΩ“π<Wo=¨}º‚ì5æºjæX©î>◊˙@>Q∑-<¥æÖö<báº^ò?æFŸ∞Ωl%º>¸dÙ=å>—==™∫ªô˛<iyÇ=ÎÌ$=}%J=`Ï0=N™œΩê—ÇΩÜ7äΩ>‹È=˚<˘ﬂ%=’ùªµé*=˙31=\qëΩ.Û´=°O–Ωù=äÃÂ∫ΩÏºæè¢Ω¿Rπ=~≈ÜΩ≈kõ=0 <∆‹'<ÿohæ¢b(æ∞YÕΩ¶ÿ> ¡Ã>S•EΩ?˚1Ωf¥Ô<=ÑM=h€^=W‘€Ω7~¬ºøuí=„Ö=4jñ=(â>‡üΩFÀ=ﬂ<»=O‚Ÿ=^ÃıΩ1Ω>˝æl<ΩWöº‰¡æ‰'>w*>Ç1æ—C=πü.=O≠æb´æ¿<K=G∫º˚¬t;7L‰ΩDI{ΩX∏'º‰'·ºãƒ¢=é$Ã=u<¢<nzR<“ÁΩTìΩºˆ==mw∂=H*æ48=s\…<±—è:ñÀ=ßÆ°;ÚÚΩ∂ïY=f»<€<Ç=H; Ωi1êΩJ
+ÄΩÕá*>‹qâ>/ﬁ∏º∫ÍæΩtm=
+V˚>”(ŒΩ)i ΩÉ*>,:=F:€ΩÇõàΩc Ë= ﬁ€Ωo≈H=ö	&Ω°vê=0≤∞ΩãphΩË	(ºä¢Ω ÒΩ=ÍºΩZ¬í=r€˘<A≥.Ω‘ìΩÜ ’ΩÃÆ±º˚∂ÁºY˛Ω0á=ÈcΩ√Mû=˝cîΩZXu=∑ØÂºîö$ºsÕƒºB¥¢=úπ◊=jáΩ◊∫¶Ω80=Ä›ıº…%Â=g…YΩ˝™Ωˆ2%º¯ÉíΩç; ºs}ﬂ=(3“ΩHèD=†sßΩœ°YΩ ü≠Ω∂{éΩj˘!ΩÛ‚rΩ0Ó∂=o∞=àÆ£=—ù[=¥Û⁄ºDê´Ω±{Ωº¿˚Û<<MüΩx«∫∫C®ºJeΩºD÷?<*¸B	learned_3J‰%Srº<õù=T—ùΩàHºhñΩ∞≈§<≤Ω|”¶∑ï‚Z=_3πΩ…%Ω[`¥ΩÔœ°ªCÄΩCKØΩò‹áºÒZf< Ω¢QéΩâR£ΩLá´=Zù«Ωû∂‚=÷ﬁ‹ΩxMº«MŸ=ßŒ”=—ıÖªÔΩΩä"tΩ-FŒΩ0>=Ω	æ•Ωk∫Ä=`ÿ¬Ω1=|ﬂΩT•=ΩB®2ΩÓdi<¯’W<Ì«ê:±»ΩÈ|Ω-¨ΩÃÀ^="ñüºßw.=∆˚
+ΩKΩ<jãºE~´<>ßfΩuB#ΩY«5ΩQ¥£=Ã∏ÿ=j—Ω’õõ=ÓΩLÓ<Ù≥<Za∆=H‹Ω&Ùº|ô>À(›Ω£)>ÿz>„~åΩ˙¿æΩlªΩ=D∏=ÌNπ=K=∆∏O=9òΩóÄrΩÃ¡R=±W=˙JΩ‚mg=W∏ùΩÀ∑Ω\‘Ω_$≠ºˆAΩ>¸<NEè<}ÖâΩ®“üΩtœµ=Ò¥ôΩ∞CêΩûﬂ‹=nüù;Z^æJA˝Ωˆƒd<w®€=_c9<´πn=ß±Sæ@9z=∏Ø>∏˚=gO$æQ®"Ω˛º÷ÍfΩ ¥;ô;Ôî≤Ω*¯ÑΩeSíΩuØ√Ω=¡ΩßPÄΩtÂóª∫ÜëΩ,%TΩÎÓ=O°=˚Ñπ<|¯WΩÃ€¥<˘*U>wW*æSñ>¬¸>‡Hà=∏ÍºÚDΩ|CëæP‰™Ω/ñ∞=ø4æ,∫.æã>¯=Ôú=†æå=+òª<Ü>õ=àÿ
+<K –Ωsﬁç=´π¶º}7ºyC=ﬁ)‹=¡	=∂∫Üº«¬<P©%æ#E+=nŒA>Á‚OΩGÿ->;¨$æ•ïBΩzêuΩ⁄ì>ﬂwô>(2=R∫º9À+>4s∆>k u=ƒ[uæOjƒΩ*.Ñæ`ıƒ>∫˚ìΩ´æ†º@=ÆV>:∞=†›=ªa*=ı¡î<”Ωïœä<Mñ◊ΩªÊ®Ω5=¿A<Ô¨‘=G÷î=ä—l>0d≠;Ù∫≤<ó†—=Ä1æ˛ZæN´ΩÏn=À$à=Á˚=}#ƒ=’ÂçΩëªU=û3–=ËOﬁºHâC=≥ªØ<!]ó=ãﬂb=^•ïΩCJªœ9‹=\—=¨òA=ÌS°Ω˛q=ŸN—ºœ≈=∞Æ©=≥‘…<¢È+>îk’=ÁÅ>µ=Kß.=ˇC/Ω‹µº<YSÉ>)á€=/3eæ|/æŸ¿çæh∑v>¡Å/=Çœ≠º∞0æ$…=Àf>‚Bﬁ;D≈_æ}™Ò<>FF>jØ=d>‰'Ä=$NŒΩ≈Î=ÜÃoΩÿÛªΩ»ΩÎ• Ω¡ﬁ≥=3âëΩ™¿"æ)‡;æ$™r=€‹æÒ∞ΩœM>t˘7ΩÎﬁ≈=ò@6>/LÕΩ¿¯üº	]>‚’SΩÕ˚ùΩ∞Ÿ˘;dg§Ωπº=ùF’=Ø≥ΩöΩƒ»øºR≈=ªÖ]=Mû+;¨ ™Ω§U=\õªîCÄº∂Z>¸Îy>i4÷ªÓo[>a•Ä>[ìæ%íÍ=†ÿ>:√‚:•5æ‘∏ªΩÇΩ˘;öqΩ≠9¯Ωo0çΩ‘-=∆µºCπ∫=àã2=≥òßΩE˜>®FñΩ\Ö@æÌ>˚◊/Ωë™æSDΩfI <¸lÜΩäÉŸ=Î=™'=¸IXºùhºq%o=¿?œΩ≈∫ìZΩË(°ªËà+=ˆÛ º'—∞ºZlΩƒ[QΩkΩﬁ˜sΩ`=˙ÏÙ<òp†Ω,’_Ω‰!ΩIÈΩ@ø;Ü¨“=åñóΩÖÅ≤=@çœ=Iäº-=Å„…Ω$æ|ΩFV»ΩuéΩΩ‘Â∫' =Î`§Ωe∫<‹(Ω∏·Õ=·±ÄºaóΩ≤}èΩ˚ÃáΩO¨Á;ÎÀ<ÿ9vΩÄ∏=Ω÷mº—}±<‰[¶ΩW¯ªSø´ΩgùΩ∂?xΩ¡;=öÿºÅT™=àˇC=“∂ÀΩ£Ë‚=≤@=ßG
+Ωf`=‹lÉΩ$3òΩdàEΩ}|≥=Œoö=B›|>úÖæn∑íæVﬁ=élænºjΩÃÃΩå™>´!Ê=5ê≠Ω˛Ò˝Ω<`4ΩUB≥=HÛ‚<n˝>Ωtã&ºÉPπ2⁄b=Ò¶zªÈ2"Ω+Ù¿ªÈÒ<˙•ÕΩØÌ≥Ω:«∑Ω"it=jñ=˜ÓΩ+Äwæ—$<æˆ\=”-K>D6>±8π>u>≤M>j 7=q»0æh£Ω‡Ä=£B∂=†æ&µUΩÀôÉ>©x>˚W>›µZ:·“->t…æ1c>=›Üù>$I∆<ç5Tæ¯ÊûΩù@Ω’Ÿö<GãúΩÆÒe=ˇÃ3;ìÓS<áw’<°∞Ω*¸B	learned_4J‰Dπ7=®Ìù;ª≠=ÉjΩÖ“/Ω
+*Ω<Npº’f’=ÕèΩï¬¡Ω≥kÿºÎ¸◊Ω+π°ΩTÛ£ΩÜˆËºï2·Ω Ü2æZ)=€L{<9LÜ>q“©>∆s¯;˘7gæ÷á>9!h> “Zæ;º…;åZ<ø^0æÁ∑ˆΩÔ˛ÂΩ€ÒFæi∏Ä>ÄáK>⁄;6º"∞=‰Q˜ªC˚r>∫‰œ=¸Ï
+Ω'ùôΩ®œ±;≠ôΩ¯”=˚•Ω?$3Ω:uÜ=Â±;⁄÷Ç=™ÒIΩ†˘äΩ†{=’b%Ω 1Ã=05ΩpÇô<∫æ	>ﬁº«ö
+Ωÿì>¥kæ.=3m˚<{˝<<Ò≈Ω4˚ƒΩ∑ìêΩ‰í€=ûâ°=¶÷√<U-ú='CΩbhè=ø7=O’ãΩw@O=1\ >6/å=Ç–üΩıâ—ºÿ5ñ=\OÊ=æ&à=¡’‰=/|!æ(ãæ¬|Åæ¨S9ΩXä‚<Öæ	`GΩ‹==ìÏy=jA'ºuB>°XÜ>{3]æŒﬁõ=\[ŸΩªxæ;»8=⁄Á;+ü—Ω$Ì˛=M –<ê¶=>â¢>’/i=nï≠= M={Fáº‰*‰ΩZ“Ω‡Öá=‰∞_=dò=é=≠òñ>€\π=[_`=M5+ΩÚ©=ÒîéΩÍVèºE›7>[«‹=qVè=|ºı=B¬≈;L7=ä=<=è∞=î”¡Ω¯óΩõ5≥Ωzé`ª\ÕˆΩ6e=òSæáåÓΩΩDç=ñ$ìºÀ∏¡;âX=x˙=0„>Cy‡Ωª:c>G>\qÃΩª=D>Õ`sΩË„ΩcMæ•€ΩrÄ>¸µ‡=˜¯ÏΩƒ&ï=˚¡⁄<ÈÑœªá7>ìIc>g8âΩ4“Í=ÖZ≤º€â<…ï•Ω·uÕ=@·µªøˆT=ÇÔîΩdÀS9ú§Êºƒ[5= yS<ôºœÚøªö‡õΩ
+Âæ8t5ªÿÃΩÙ*'Ωı$ò>ŒzÆ=ƒ∂ª;|të=e&ÜΩ#´ô<Â˜€<˙∆Ω¸ΩßÉΩû?o=–\œΩ∏ªç=od,=l6÷∫•È¿ΩóÈæÌ3ΩΩœ=ëïÎΩ6xΩ0ºªøÔ#æ»≤$æUx&>i“#>æ5ÃæŒE˝ΩÇ§…>Ú<r=S®=W9>Òüè=ÀY˝ºo0Yæ¡Ì\ΩX√Nº∂¡“=zÌx>ÜwgΩv¬J=±`Å=Ø<ÿª35>µÔ=ù ﬂΩ8°çΩtK>’‚°<:r(>¥=Ë›ΩÏ€∏<YµåºÏºêﬂΩøQΩ⁄»=Ω5Fï=úÉºº
+Fi>˙a€Ω˝ænù<æë⁄M=ìFW=&3Iºπ=≠=zˆ=Ì≤ãΩ0>TΩ”Ω=Û•ºΩ¶UŒ=ñî|Ωè¡ΩΩÃÏ¨ºKr	ΩÂ7=«ßå=qLÎ=+~>¶4ˇΩ?ÇÔΩ˜Ìù;ÔOΩˆ≤W=9÷èæÙ˛_=π¢V=V%>ÔCy=82æ\S÷=îÜq=“Á‚=D=k9Î;ŒX=Ωó˘'Ωãw√=Dˆ…Ω5‹∫=åÌ:∑hLΩ'©ˆΩﬂc1æ≤ùFæ`>[Ω£KdΩ´HFΩx-ûº§÷≠Ω¸):=ªÜñ<'ŸçΩÚ¨ç=Ö€°;‚ñ†=^Û»Ω,›Ω^ wΩ±&º><VÇ>ŸH0æBv>>/ $>‹D=º∏∂®Ω ≈ﬁΩf{ΩfT~9pm…=-É≠=îòùΩÃuS=©\œ<‡GA<{µàºDf]<XêΩ<îÄ=£lGΩ7ƒΩòmèºß„<çﬁÇ:â™i;˚ûÎ>R„áΩ'ñ`æXn}>¿4fæ=˚cæèK ªiÏëæQéºãÏØ=º–∞ºÆlæ+é>rcƒºñÂ¸;’∫º{{ÙΩg¢æ7=8U™Ω4h>ì<TΩ;ÿº«	>Ké5<ªH›ΩG>Ù`∫=zﬁ<ƒ¥=Ú≈€Ωƒ¬=7R¬ºˆ%Vº(Ÿp=BÆ‰ºXœ›<Ù∫^=Œç=$Y=áøá=®u">%Ç>{íŒΩk±=∫◊ìΩQ1“ª–uª‚ŸπΩd.Ä<}®î=˛?=S∫»=ó˘ïΩwFüΩc÷=Vw/=n´tΩ	ÅòΩN'x=+/6=√}©Ω√√ºÒ„=ÂÔ.=J9—Ωá\Jæ˛Hn>˛#˙=m|àΩ9[©Ω¸´Ω¬p∫<	ıøº"RÕΩ´á5=∆çá:Ω¢®=úÿΩzÔ<ˆtw>êe∑ºhQµ=∞ß\=}:ΩŸÁ
+Ω§7=ø•<J>†§<>§(QΩËìΩRc=TäÑ=√Æqº@ñÜ=tfΩløïΩªæΩ=tê>9ªÂΩÌ±¶æ«+·=ˇE≠º1}¨Ω@„>µ ¢ΩáWç>*¸B	learned_5J‰∏"TæF†ªΩMˇ=‘4x>Qìº·ﬂé< ˆÀ=ıÒ€Ω·”9>BﬁΩ˙ìæ˜_„=&≤íΩı>	ÛYºóõΩ©ﬁúª®}<ÓäΩŒHqΩ
+•>›ë≈Ω≈>ı>y¥öº˜V>Ø≤7=Éñ§=”>>Åº' >∏ΩM€Ω…}ëΩêP∂=BsP=ã®9>ZvΩ‰Z>9C=tD»Ωb!Ó=X=ÂΩ‡UW>„äh>Ñ‡·ª5≠V>B/\;i0{=πÀL=á·=–Üº(ú;ΩÄgRΩtñaΩAHóª´GDΩ›ÿÃΩ´{9ùí?æZ@‡Ω„Ω=»ﬂN=ÏPÜ>P\ﬁ=œÈ∞= ú≥=7∏6æ2kæÂ˜áæ ‹º‚q>ΩÓüΩ√¯>Òg∏<g.‰=E÷rΩ#ΩÇ:€Ω4ıCæ›+ËΩ˛«>>ã<>¯D;>“qR>ÃäáΩ¥Âæ=Yù=èπçæ2RÎΩ†—l>)©ΩoËOæùÏ\Ωˆ€‡ºÍ]$Ωì„Fæ˘f>˚›>∂éÊΩóªÊ=TY>ƒHΩçFD>Ÿaã=áØàΩÙùn=˛§æˆˇæq˛>XQ∑=ÖVÇ<Ñ¯Ñ>™bÏª$çΩu[C>8…KΩª‘∆=Ã7æYñ4æïpxΩKÒòΩÌ»ºT»ÎΩôöΩ :9=còDΩ®éeæÂ
+±º9_0Ω˘ˇ≠>Ex >üòæ˙≥=Ân>ó∞kΩG˜Êº±–&æﬂüz>ät®=©tèΩÁ…¶ΩAGÙ=¡ô˚Ω›ΩC	RæıÂÅ<™⁄ÇΩ„Öæ¸¯=A{ê=ëÇ5æ,Û›<Dl><T≥<Ø≠™=~Ω=”,†>åe>ÃÊ∑æÃN¬Ω]‰—=	k$>[0>ñÁÂΩﬁ›Ô=≤«ı=!ÁêºÈDWæ¯¶Ω˝ñº∂≠Ô<òΩì<=ˆ	Ω¬U∂Ω“Ñÿºfßp∫£q“<2¢îΩ=*Ñ=*›˚ºZŒ<±Ω5Ω7h=ˆcÓ<È∞>FMæcãùΩÕNπ=øºÔTæ:Ú‹ÏΩ«m*æL ˜Ω·Ú»=^•ΩT)Ωöjˆ=EŒä=-à·Ωe‘<[>°>¶N“=RucΩ{©ïΩ‹ïóΩFPß>´›§=†êä=v+í=â—æKàúΩ(YìΩ64ŒΩ–ÌRæºBIæÉΩÉΩ/{}º&‚4ΩTJÀ=π£=±∆dæBÁíΩ©—ºã3—=Ü]Ωí>1—f=»ÆŸπsƒóºsΩ§∫5éÌ<ÉG
+Ω˝ÊC>ÓØ©=Uí>b∑8>=∑C>˘%g>¡n,ºPÁ◊=Í•>ÏåÇ=)¿ú=Dﬂø=ã¥=n°sΩ˝>ªº∆Êé=≈Ω<ΩpˇΩæÃ„=‰MãΩR◊->¿xµ=˝æ_æEHä<—/ΩoÅi>ÒàT=+rUæj≠wΩ-M‰=|A'=R>n¬â=≤2ÉªˇutΩAç1Ωg?!æ≤œô<«√>äJ@æ†r>}aï=˚R=Æ∫A=+‘Ωê>éÚΩÏ>z“%>[fHæ uΩWæ	Lp>@=öú(æˇ Sææg∑KΩÓÇ>A«;„ÅPæïT>2(áΩ÷ßE>Â¸ÉΩ˜GEº4Q=ûkåΩ≈N7Ωr
+>ø+ΩΩ‹^=®dû=“üæﬂÒ2>[ëäΩ◊/=∞∑=-Ωæ∫ÿtΩ+ÿæ…ôæ÷I∆ΩU(æÇqèΩEbsΩ”æUÊ¥ºŒ@<óKºl≤<∑≥®<PPu=Ö˘Í<´è¸=Íi,Ω†√º°ÁL<–EF;bFÄ=[q°<MÃo=√HΩ≤{BΩÄËΩVjˆΩV 'Ω†>â=ùªº‚πæì_çº«Z >X>T =q%9=b˜\>WÛGΩ¢ãΩ}=YÔ$ææ¶ŸΩRìÌΩÎXΩoYû=W≤.Ω÷_Ñ=õ$î=3>6¬êΩûT5Ωè"ø=¡‡;&rP=ôÓÙ=ô1O=iª>≤ì>˜òÍ=‚ÎÕª>âhΩ#sQ=ÃÚØ<y1IΩ‡KöΩ‰:>|À=¸äüΩ®»¯=⁄6ƒ>vÓΩ-JΩ7∑=“CUΩÎ¥‘Ω@p_=„ß`Ω˘ZN>¿1_>-≈"ª≤á®<î2ΩÄcÜº˝>JÎöºSæ—§a>®Ÿ">ö[>'cêΩ8NóΩqQÍΩ6]/æ#ø=ìèãΩLˇx<pÏ\>⁄dæ2æ∆º«õ=>5^¢<*Z=«7AΩVäΩNÓM<‚ß=káΩlÈ±º1]•;…ÿÉºı=Ç≥
+=≤çDæ¸Ë(=‚∂ΩUÇ=mÚ >Õ¸∂Ω“a=Ò#8=(&!Ω˘—Fæ“^>√*è<€·§=±>VñiΩ4y>*¸B	learned_6J‰l©¿=Y Ω$f·=ÛæâÔ!>MD–>õºV=9I˝=êÃ>5C~æìΩÊ™’<q›™=…÷J>ÌDΩﬁ€Ω≈ü<bÅm<Ωú<ΩjπÑΩh'Ä>nx}>-g€=`EæDƒ<åj8Ω–á=í„@<k⁄M;?1EΩÎFí=Ö˘V<ÿh;ºÑª<≤ê¢<´˙<>>íx<$÷Ωä}¢=j∫Q=f¸·=¿ÊdæáÜæ¿∑µ>¢p±ΩÈ∆‰=U6æ‹S∂Ω›‹9æ6CæI‰÷ºtœ‘Ω©KÅæ,ßΩRdœæÿﬁ:æΩÆz>√è>5eò=®	>È;$>ÿπL<.˘>Æ}.ºí+RæVtV>>wFº§¶‡Ω—b&>÷∞0ΩK‘æ∞i1=üæòΩΩ:~æˆlÅ>ªÛH=‰À]æ¬πS>ÃãÕΩÑòëæGiî=ÆÇ¿ºKåæß⁄2ΩøçV=r@æã7º<î÷€Ω#Ôïº∏M-æ˚xˇ;Z≠Å;~ˆŸΩUÿÂº	l⁄º‚é@æÏ»˘Ωz√ã<ΩLõΩÑ©¨ΩÈÍ´ΩE·1=®•>ù'ÉΩ[\_<ö˝=°ﬁæ›w∫£;ÈΩ˘Ê∑<zœ=#Z;Të¨</J{Ωá¨Ω√ˆ∏Ω>µ`äΩ-Ω£/â=Ãµ√Ω0nsΩ@¿ä>\¥fºl‰GæíÛM> D>@N›<H∂á>õ@=æPÓ°æ,÷>\ >÷ƒΩb?üæô⁄UΩ˙˚˝=]P>ZøF>¿}>ó{>ã”æâ±bæåÍ*Ω+x>∫bs>(≈tæ¯3æT–>g4Ì∫ı%æ´Œã>(Ä>8zçΩG˘> ˚Ñ<|Õ*=`Ú=s:;=’«<Êˆ!=¯x5æ∏°æ+yŸ=ecË<»Á:>_,å=o¸]>ÜÒÉ=©gæÊò<Ô™›=á˚∏-Ü=ù{?=tœ=Ûí=‰ôS=ÚÇÈ=RçéΩrî§Ω∆	∂ΩÔ#Ω◊"Üæ\«ﬁ=)w¥=M∆ºjB)>∆©=å≈Bº«q◊Ω•M∆º˛h<∏=ƒå‰ΩZæºI2!=ir<i‹ΩãºFΩK∫ª0øó<·ñ=µ/<ı◊Ô8[4d=ï´+Ωê·4ªsqZΩ)∂Ω9,ΩÎ±ÃºˆvRΩN~ΩΩ±∏’<´!=\oÒ<ºÎ=aâ =Rtáºò• =‡_∫=ÔÑBΩé Ωß
+y=◊≥=ﬂ”ºöŸÎΩ”˜Y=oöï<§°˜Ω§•=NmSΩ)îºøE='R=®àΩ"”£ΩO™\;¬‹=ˆCΩ§<ÀÈﬂΩs@“ΩIV=‚`=E{òΩò€óΩ"É—Ω+ÍQ= èËΩÎﬂóΩö˝3æ= ∑Ωz˝ãΩ-ÔòΩÓ∫>T˙=çsL>Z§Å>fôùΩc¥kæ}øΩryËΩ€Úæ‚•=ò.0æNE»Ω“c≥Ωu¡œ=*9@Ω‡C˘=ÓÃ=≤¿Õ=5 >H˙<ºFˆ,>ªO\>v◊=cZò=æì=;‹˜ªêK˙ΩØ 4<f§ºÄÉÈºÈ÷ßΩ“Qæ÷π
+>}◊=€£˜º ê˛=ú‘>iSæÇÑ>û”ËΩ"#.> 4Æ=µ°º‡7T<ƒ.y<∆°ŒªÓ>J'‡ª◊Îæe\∫ΩkæıUæøﬁAæ	◊§ΩπYò=B{¨Ω!√j>!»:èõ∫<3ûæ≥)=üô∞=›ƒëæ>R‘Q>äÙº Üª¿KΩñnˆ=ÂÅc=Û®G=Ú®>ÀÓ$ΩÄ—¢Ωº8^ΩU r<_ªÄº –ö=Èé≈Ω‰˙sΩõﬁ</‰˚ΩˆiªΩ±æπîΩ·e=üπS>≥´]æÏ°<y´Æ>–cXΩÃ3m>£±8>ã˜µΩ≈Ô0ΩKí°æA˙P>ï=ª<`°æK>>xX=FH√ΩVºŸºø›Ω˘œ=ª ç`Ωçu&=î»úΩ™ÈΩ»*=ÄùcΩB]>>ï®©º¬i0æú€b=¯M…=É*€ΩôãC>∆•>x—áΩe∞ñ=ŒÒ∏Ω	Ä<≤jSΩTænæ ˇ=ÙÙΩ®˘‰Ωå[>F¿Í=µÈ>a s>€Û@>8!i=†ètºR◊!æ–O°ΩW7fæ)tı=–fS=ô¸Ω«ù:>≤ù=x…•ΩÁ@9=‚€=•>˙®º‰òæJ)¬=◊H™ΩäGΩ±  ΩRùùΩ⁄XÕ=K†èΩw∆Ö>Wá>ôïÙ=¿√õ=Ùˇ>/z9=œï%æÙ¥æÕbµΩa^;KÀ“º∂!¥=E>=∏‡º }mº|¸°=+v!=]µæ<?€9Õó£>—ŸL>π*ÚΩæm‘=E}=ä`–ævXEΩ1
+Ω*¸B	learned_7J‰Íá>>çW>R®>é!ßΩ8ºcºá0‡ºxóæUòæÖHtæ˝øú=ˇÕ=’-b>çéΩ[C=ÿ>„ÙπSû∏=1ŒC=™N∏ªD÷˘Ωê¸iæw·¬∫h)ΩEu=Î≈≤>YdÕ=‘ˇ∫=µ!z=•™Ωmˆk=IqÇ=≠Tç=ò^-ΩWøáΩÎ∆ç=<ÔF=oWï<W_Ö<Êiæ«ºº¥Q%>iÂoæ]OóΩâAhΩbGΩïXæBUÄæ!$æ®⁄=√(ºç[y:ù∆˘<%>J“<5Aï>Ä§»>Ww>⁄ïTæâRÿΩ’êfæ«u=çñ3>4Ï=∆‚¢Ω√~≥Ω¨RØæF™vΩfrÖæ¬V§Ω⁄œL>Ÿo>3ÄÍ=de´Ω-5æKÁO=}˝‹=ãt¨=%3Ωv";ptü;—ÈΩí≠ΩF1§>AåD>2ó∏;Î]P=®≤äº∏œëΩl ºΩfãâΩ¥Ò=«≠!=‡í;$^n=.ﬁÙºﬁ=-Ω˙ê√ºhZ=Åﬂl=Ël=Ü]<Ê…tΩ∆Ω—ÿ$º ã¸ºêÇΩb÷ì=ÏÆ.æö√6æŸìÈΩ•*˝; ®Lº9˛∆=®†ªπ«=ö¨tΩÿØÑ<fæªÑ-º<	>–’<;~>ˇãã=¢«†=L^æ’ùﬂΩÁù?>¬s≥æA¸àΩ·?H]ùæGm8æáΩÜ>FıΩÖÕßº¿’ä>¨b‹<}B
+æ∏ïÃ=ÂÑΩ˙ßÓΩˆb¬=ÄàA=zX>æÿÜ≤=B®=’*#==,><Œx=ﬂ›=)‰ÿ=p≈ÜºaÇË9ÍÆ"Ω0∂¬=∆≠Ω[ƒ=UNΩ∑^<§+∞Ωf‘§=!¢äº◊¶∑<Ÿ’ø=0¡u=j±Ê=Zr8æ§5ãªΩè≠±=Ì‘>5ÏΩ˝w>f0$æÑ|ı<X‡≈>∫cN>ÏVΩΩW˝=:c…=L›∆=íÈyºø√DΩ]ò—Ω6z∏=∑«÷ΩA¡›Ω#Jb=Àˆ4=ÙKægπ6=∆
+öºZ	æ«≤¡Ω˛>->œÉ==ÿq®Ω_æÌ=◊ÒäΩ›…ºv¥<˙pFΩRZú=p∂Ω≥‚¢Ωµ:+Ωi¢<=˛>ﬁ=ÄΩ˜eŒΩmèΩÜ]>óGéæ:K
+>…¿>pJƒΩ2˛ê<˜&<äø‘Ω˚{â=ÊÑÖΩ±º:_3ãΩ‰¢=ø˙çΩDHtæçj¢ΩOÀ~>aΩëŒ<.ùÜΩ¥Õ=VáæñmΩ˜R0ΩèÄóΩüU'º:ªıΩmÊº…ÓΩΩ¡<π>C„;m≠©ºÃ√æ©ÅºÃ¡*>µ”=æ	˚r>cc ΩY<¨ºd„√=e/¯=ë∑>âˆ¡º*2æ+]=ÌÀ˚=ú…<æ^¡æ2ÄH>jœWæF∂=¸¸)>•[CæË\∑ªﬁ)
+>h=»À=Z˜\ºí©ùΩ¬%6ºßæÑ1•Ωû5!æüæ:(Eæ¨2ä>æ=_ç´Ω◊2∏=å=øΩ¥Õó<,Wì=h±.ΩD;¬º3(¿=j€«º,â>!r>Ëˆ<Ω/º=P‡ÕΩÚexΩ6Gü=Í‘óΩLˇôΩ8u0æ‡üΩ¯{=Ïÿ˘<∫„ß=Ê’>ô¿>√NR>4â•="4>˚É™=˝ñ
+æÉ“<{}xΩ˙yoΩÎg=uﬂæ∞◊6>+‹‡=˚˛Ω$>‡È:>$•=>hª≈<;ÑàΩhQÀ>)	CæﬁΩ˘çrªí*B=Œa<ÌV;ì∏Q>t⁄WΩ˜Ü1æ]‰>_cª(•>:)∆ªŸ"°æ òò=&íæì˜ΩuT=“«Ê=h
+Õ<gÕΩyöΩX#ªΩ±dç=®$SΩ)√©Ω—¬Ãºùyä=§n„Ω9„{Ω®BΩ∫v≠<Ï¥á=fh=„∂üΩ¯¬=ô7 Ωú9†º~9<>Ê+™Ω€xR=s’<„¬Óº¢.≠=zBæ$hæÔ@Oºy˛(æ/>FæıHÚ=Û>˘±>%n¶Ω@8ªΩû	}º‰DGæ…6åæ›„v>b#Œæ/J÷º≠ÅﬂΩ“«Ø=Z1>V@é>gesΩï:=8^¿Ωë∫@>è&í=N“=∫û=oπX>ÀP‚<>)=°l´=Ú!éæ~ßµ=`è>M>ñæv.Å=U'>ojæqCóΩ[_úΩëﬁî=Y≈”=ùg›=Û—w=||≥<1Ò⁄=:€–º|Æp>¥∏¬ΩÖ.V∫›'ñ>Ãâ—=…~<>;e= quæ›z5;ßW±=;,ælÑ=¿Ê=M»ΩQÔ¶=ÃM°ΩÑS<Âx>êAW=;÷V=*ª=a=v|3>wˆ£9qxΩ„¸ª=Y»=*¸B	learned_8J‰pπ/=ﬂ8Èª;9º∂>Ñî=v]Ω\∞“ªIdDæ”Ä(=îŒÀ=‹3òΩJ.•=Û¬I>;K>∑œΩGÇÉ>∑Áú=Ô·ªOä-Ωtåjº? ˙<VçÀ<†Ì6æßƒ∆Ω%l=Ì3<üo”Ω £º=ÑÌ∆=
+ñ=b$>˚é= b/Ωhñ‰ΩuùΩ`âÒΩ≥]D<%E æuæwΩ·
+æJú%=_;åΩZ„æëoÓΩé·˜Ωm(w=Ωá5?=DY@Ω‚.XΩ°ãË=õgáæIgÎΩ∞ò∆ºNˇ˙Ω‹•ºÑA:>Æbªh7æP‰>=s¿=]?>ÿ”\<¯∂ªˆ∆Ω›!<,->+ë‘=É>∫øæ.òæ¸Ê_æ.ïÃΩ≥6~Ω&z’ºDËµ=Fµ>zgé>Õ;¯<à—Ω£‰∞Ωø%ÿ=z˜ΩÜÖ=YÉH>Wı≠Ω1∞åΩ∂Q>´é\>È∫;Ω›æ3æ_gÖΩ'OΩT?ƒ<A¶^ªßd⁄=ŒΩÜaáΩo€ΩOúfæZ¢v=º&¨>¡†æº„æ@Í`>_o∞=ÚM·;('¥ΩV!'Ω∏%‹æ€wÆæÂ*<>¥7e>ÎΩ-<#cë>v‚ò>‚€c=»ån> ß%<"?>•|>ˇs
+>íÏé=Ü”æ‡åæª˛+=S Ω¸AÑ=îÖ<õ%›ΩÜç‰=À÷Ω&≤ΩW‚Ç=¡©Å;g”qΩlsö=}Ωàº8R˘;$ª÷Ω´ƒΩã2≤=c≤&=·<Ω‡Ω•/	æAçΩaà∂=L∏úΩ,6=,øΩÂ∆íΩAJ⁄=ﬂMº˘≥=‰o^Ω5%í=~·¨Ω¬~°=$Ä=7<ˇ<å›¨=‰¬ñ:V æºGÍΩÛUí=>ø–<!)^=–Ω≥nΩ»∆?>¿R◊<Ö ºè‡=>”=˜ ΩΩ0.sΩ=> ®ΩÖ=áØá=Qù=ëƒæ
+õ≤Ω«Y@Ωœ˝ûΩœüX>®k<l8ßΩ˚û“=∞ˆ`æASøº1>:ïf=¢¡⁄Ω›]Í=^9)>~Hæ}ΩæΩo<…=ö˙
+æ˘8^ΩÉ—=É!<3k<cÌ‚=—‹º=`ü;H˝iΩ#M°>ΩÄÿÙæW3?>TOí=£∂æ*≠ñ<b=Ñ ÏΩS„µΩÚ‹gª>|∂ΩÁA;GÂ«ΩµvΩ”∫FæT*O>¯©ÿ={7Ω5ñÃ=ÜπdΩÀµø=ØÜ=yò >œ–$=¢wéæqíç=ˇå+>Ìæ#4=Îêy=õîN>Ù∂=_◊∑=°QæUÆÚ=Q8<éÑ>Ì;à>+•æõ¥%>ŒÎ9> °>JΩõ(J=ÌBÌΩïõ<t/tæFÑÇ>⁄œã>‡g>€$æ<CBg>} ô>c=SPHæFßwΩ∫Kæ™tÆºCÿáΩ)æ±oÉæ÷jÇΩ≈⁄õ=Õ6>æﬁü•>zëÂ=%p<Ù+™>ïWeΩí :%}æÉYæ≠Ÿ=∞Næàf>ΩÚõp<πmMæÂ∫=|ßº$Êq=oÒ“ºÃÁÈ=Ÿ©àΩlıØ=yúV>çæΩh»=|⁄e>è)>5wŒ=3R>$⁄>ùΩ∫=éª°æ”à=~÷gæ∫}J>~:√<ŒîˇΩ	˜®=Gâ_>“Öº\u‹Ωx¢>>º\$æÏÇh>‰L->*üΩ©4qΩî>Ee√ΩOıºRÒÑºÑø<û5êΩ]Ã‰<4ª<¯Œ_>x|Å=‘j∑;(H)>Y†=Klx=Fß{ΩºÒñΩ¯[¡<Ï>T0>)¨~æû!>GÁ<«xß=d©= pÉ=Üj˜<˜FG=Pû%>-[”=y£Ú=ÄB=[æMæ´ıï>	—Ω–M¨Ω
+^i>_|7Ω„ÌòæöØÏΩGÇAæ†EræP⁄¸º+‹=ºßËæJ˚7=„åß=}¥‚=W,£>mÂr∫”l9æQöΩ$˛‰={4æ<áb>Øæh2ÊΩÃ¢Ä>ÑYÚΩM>c<KW°Ωó‘uΩà='KAºÖL>ÍG‰=#]=;°ó=ˇRø<v7=ÖvòºwıÎΩT±á=/ã›ºe—:º¬_ΩÖÈ”=∑—ºı»§Ω=[æuø;=Í@îΩ#A]Ω‘««ºB∑:X¸<—º2ˇ<åx>i>bø=ÅƒΩ¸ò9ºël∞ΩöúRΩÈà™Ω££ı=ÆbªÌèΩ&æ=∫√’=BfH=Dú=¬ΩÖ~¥ª0’º-èéΩÙ¬ôΩ8\$ºejAΩ˚¸…ºëÖ Ω%ñ÷=isY>JÁœ<ŒËf;(.¶=àJæ®s†ΩÎsº*¸B	learned_9J‰[[6Ω^>§<i˚ˇºïÙ2=zÒŸªÒaÄ=ô!˝<zπ∏=ﬁ?çΩÌ´µ<f3>)ê8>å}FΩÀ†Äæﬁ=ö9≤Ω¢OæÖzæ’‰Ωƒˆö;¬Q“Ωy±ˆΩ}˝™ª√ÿ=°ºãFª=ùè[;ŸÚ<áH<Ç›p>°j≤∫øl†Ω_°ªNáÛ=ä˘óæ–›ΩÀ~#?gm>k//>yuæ @8æY6‚Ω·jêæQ'æ5òΩ/>[9Ê\ﬂ=JÜÜ=rOéΩÄ•<=”™ΩI>õt'>()º:‘>ÑÁÿ<qç7Ü÷.=º◊Òªñ|=_7
+=ÅÓ&=G-´=ïÒºΩGƒ≤<%VΩ§‚>éúΩV(<ã’=5‡≠º1˘qΩ˜`°Ωuª3ºÅßI>ÿD≥=
+.1Ωóu:>Q| æ,õ™æ2¬<X(<ÌnX>Øïº∑\Ñ∫|≤ò=0æˆ»=ä{ì=»zá=≈„S=z"öºoä>¸fK>§oæ>¯<è˜=Ì,ΩÃÊ—<æX≥Ωˇ/¥º2Ü>\*$æ—®∂>6“g>òêƒºÛ˚Ç=jÔº?Q‘º≥æÑ’ãΩúèm=G‹<√˚	æÜî≈Ω°•=ÆË.æ!G =èí <^‚òΩ∂ï5>È	4>û ã;a"-=á2‘=Ω‹æÅÜ™=∫©=JOÂºO∂∏ΩX«>=Õ≥o=õïu=∂Ωß§‹ºº˝_=¸∞ΩÑÍΩ&ë0=Fõí<4üÓΩi∞m=p_ºõ¢ æ±9lºûë¨=ÃΩ[F÷=;(&Ωæ/<ﬂß<Bps=F›Ωô†¸Ωì=Û:<ª÷º¡kC=≈Ôææ?óΩ‘∂]ΩòxÀΩlº	>Ò#ÏΩ`IZΩ£¢‡=xÅ|Ωö%ÿºlÛk=Yzº;¯°ΩB∂<Ì=P¡ãΩhÀw=AÍã=ÔËΩ◊/>=ŒâΩÔ˘<c#="ÈñºÊR3Ω°˝ÄΩ~ñΩö]ΩMa<Î3ΩÏÙl=¶ñ∫Ω¸Î:¢¶F=»øŸºl¿í=Ω<`¿jΩ	æO^!æYO¯ΩßGˆ<≈H}=æs>rlŒ>öGº«=M>Œ=>¸(æOßfΩpç¢ºª€€Ωá¡º≠≥óΩÆ©ÉΩa˘Ä=ÍuuΩGõÁ<°≤ß>˚~>∂–æ3 YΩÃ÷˜=‹ÜƒΩ¸«Ω77ÀΩ#) =†Â->eïîæLÂΩd¸Å>úpæ>H3<IÖ>ZÍ7æÉ&ΩÑu>Túhæ=Ÿ_=qÑÛ;%ELΩHÑD>T¿v=Ùæºt-wΩl”/Ω¥9Õ=∞•ô<xß‚ºÑ∑5üB=05ºZµ >rl‘<°©ΩÆe˝ºoœWΩÁZ=Q∂ˆΩø∂Ôº€ÌΩøå=`EƒΩ§N>ﬂŒ&>≠'º≠î>R`X>åœΩñ5ﬁ=_6íª∆ñ/>Xq]Ω÷Ãæüƒ$æ√Ä=?˜Á<O>=√#w=Qcc=ÉÌ=¡4æ≠È¸æ…_\=∞qæıVsæ∫qà>~«ª:LóæÒ°*>fr7>(†=`/ê>∆#¢;GXæèw∂<õ Ä=Ê∫Dæd”]ΩÄkRæ	Ã‘ΩªbÇ=ñ9¬=úˇz>CÕΩóf÷=SË[=«^áΩ+«øΩQ∆È=:ÈÀº™_.Ω∑ΩV’∑<—’ ΩåTΩtØ2Ω_—˙=ÅıS>A¢4Ω£5ã>( =ó6º%≤Ø>ÊäÉ>…iΩrËΩ>∞«ΩøƒÀº†F>Ñ∞o=‹+¬=ÑÇ=?˝ =ú¬§=F◊◊ΩˆT>ˆΩ	∂Ω“Cõ=sk∏<€Ãˇ;:≠†=´Ç<oT>*ºÒ=yöc>+!ÿ<,/¸<O◊2> ·ÃΩµ˜Â=yã>—™Öæg'q>“¡U>Y˚Iæ◊æΩà’=~∂qæ2—ÀΩPr¢<7Êf=¥•ºæ_øΩpí=æ9Óæ©¬ßΩ(«ä>ΩœΩ0ı|<äı=∞ÁÁ=≠$>ÿê =âÓΩ‡»Ω+Ú`=PÅñ<ÛQ<SÎæ<∂U¢=N m;ØÜ]=yYôΩÔ	…:[æÃ3∂ΩÒ÷ÜΩ˜¬…æãûõ=1ßæ uÄæ˛>G>:¶Ï>Îô˛=ﬂ¶bΩm∫>u^æΩwxΩkUÅ='•@=ö	vº≠?aº°¡æ#Dxºﬁñ+>Ôi>' @æÿä=±Ω¨æl]>…^ã>BB=!±—=`.#º™Üæ$∞´<qiOækö æﬂy)æ<ÑL<K6Æ>Ïî>ÔÚÅ>s?<B∞ﬁ<ÊÉ@<˙NáºâævÒ=cfï;6”Öæ ]ÿΩÃ\=$ÀªüHäª∆m=m‘D=I®ΩIÑΩæﬁΩ*˝B
+learned_10J‰H‡ºv}
+>—5À=meU<Gç=k(ºX÷$>dyÌº®æ<ë¸Ω—diΩª∫æ‘{√Ω C∂Ω5è Ω€”QΩ~—«=ú2Ì>Q@<2Ó=“7=ÃaÆ=e≥oΩ¶Å<Ñ=òÏ-=ªH–=°a9Ωnf1=∆N>qú=ôœ%æf≠æmm>√û>ºúºÔˇ>>◊†Üºw˚V>}0>hè§æÓÎ∆=%m
+æ’A=“‰æ˘";=Ä[ñΩÚÌÇ>|‹ΩœH,Ωc¸s>Ú⁄¶ΩxÓ
+æ∫Qü>ÙÂπΩŸ∏ñ>∫ÏŸΩEbMΩ"î=ŒjÓ=5≤s>aπ=hì>èp=áT¶Ω	ìÌΩ°ÌºÜP4<«uÆΩ∫ ‚ΩOt9={ÜΩˆﬂΩIuŒ<Í‚›:e»ÏΩ˙î1º:Â$ºh•µºhA
+Ω‹ZÈºÒ◊(=åh=Æi=ΩßÜ≠=ˇ¯‹º⁄‡÷Ω:èœΩt#1ΩÈ;ò=≥¯ﬁ<,C¨=u†=vJ¡=$°DºXÁÊ=bjΩπH¸<≠	∫ªâûØºå“hΩt-Óº¨ck=#=ì≥¨Ω Äá=âÛÇ<≠‰NΩ§‰Ç=7Ï«Ω;ÀΩ7Ÿªó9=S"[ºh0CΩâé/=ÆÛº-π<ÃÈ˛º∂ªõΩL
+åΩQ3íΩç&c=¨¿<=3ß¸<ïz˝Ω1öéºÙ%^æ¨æ=À†‰Ω¡ÕùΩäK!æ	í=£àWæ…◊Ÿ<È∫Q>∏j>Ÿ<Ç≤=)zò>œ»æµ¬>¬Ωπ-ΩêXo=;UV=Åù¯Ωë§Ä=–„=˙K·ΩYî<bXÃΩ3ÉΩ	Ö>iÎÜΩ'ﬁÏ=,\…Ω≈‘ÉæùgÖΩÄ±‰=ÁŸVæ‹√¢æxN>Ö((ΩÄ5Ω>∏z<∑q=æ;ºq>´î2ΩSê,æÏó<÷÷Ïº∫y6Ω·æû<∂”=>Dñ=d∆@æ/$n>tÒÉ>……>æÇ"Ã=É∂%>NŒA>q"ØΩÈH=≥WÑΩ4LëæU·Öæ∂
+æ7ö=Ωãø‰ºﬂ¶9=AΩ+=¡ﬁ·="∂πækCK>ÄÜΩ„-•=ëh2=°
+=iVºùa=æhQf=›≤º:c’<œ¥JΩ%6AΩc√¸ΩòUZ=•·Æ=˝Ó0=‰8P<'≠ΩÎNHºqlÌΩ{	J>/1∏=XË∂Ω«Ùÿº|=®ΩÆ‚ΩΩ"ø >bÖæ@Û
+>üN>Óﬁ¨Ωõ"∑=p‚==”πæä
+'=ÅNæ3=Ω{€ÏºZ[;U´˛ΩÕ' ΩZﬁ÷;"3yΩΩJ =˛ÛMΩ+‡æ L⁄<$æÛù§=Ÿeú<›_qΩáq§=†Ëu<ä[æcCÈºçü=|†…ºã˙ôΩ,ëÚ>—Å>„8ΩG≈ú=⁄èà<ië‹<r~ΩvÂä=[—∞Ωf†æÖë}=ıóèæáeì=¯i>∞RΩÂ§Ω≠ëx=SÅeΩ-N±Ω˘-<∆Qg;ÿ∂@Ω*ÉΩEÙΩ˘	o=EŒΩFÙFΩ’éΩ4äæyóÚΩ«çÍΩ⁄´{æ8PfæQk;= ]¯ΩDræ^cÑΩ;=ÿz.æ‚–Œ=⁄E˘º›L>@¨æG¢=ÌfJ>Fî‘=SÜ∆>w«Q><u£Ω—û>>`X=8a(Ω˛⁄Ωhﬁ¡Ωíl_=T˘> ıΩ◊ÆÉΩ1`4>›8¶=±„æ+‘k=Ä±$=.U%>w‹;|Ω>{·ºõYº˚U>lB4æP≠Cæ\>ÃqüΩŸœãæ‰˝˜Ωr-+>≤ªΩ8à=1ß·ΩÑ‰ΩïBÄºJ)±ΩîÑÇªÑ>“Ω"¢¥Ω≠4ËΩ Û=∑ÿ‹ΩŸ;KæAµ>Âπﬂ<{DIæ≈0è>Ω≥w>ŸÌ>éM0ΩÄ≤cΩÇ(æ…»¬><oÜ<&ÄºuZÑ>ì†±=ÏüZ=(g3Ωïa>À>õçºΩ√,Ü>Ê#@Ω”g∫⁄óÜ<8_I=±
+ΩwvÅ8? ›Ωö«Ê=+[ΩSÍrΩê∂ß>?Í›=Tü¸Ω.≈tΩ±e9æ>t1Ωˇ√E>÷Õ/ºÚìÒº˘·¸<™Hµ>
+5Ü>kFsæ¶RÅ>j¥>Ÿ6µ>á.M>◊Fæ*Œ=Ô“◊Ω‰MæÖê‘<∞:;®ÜΩÊØ∫=´ªwΩí'ÄΩæïΩ˚Äâ=p’4<∞ïΩS8>Á‹1=aæ!æ—æ<^\[>Ò¬•<`AÑ=∑®	æHÙÖ=
+ˆ
+="∫‡=3ÛõΩ}öæ∫Rt=K|">-‚G=rK>-@jæ]\/æ,,æ«Ã>ô÷>g%`ævé=k_òΩ>z>è(æ„>Ú=o•∫æŸ≈=∞s:>¯l±;€πæpµ>›’Ω*˝B
+learned_11J‰æÀ†ª·=K‚æÙÀé>+≈>ëµÅΩ;Çù=–R¿<ùãWΩ
+Òy<%wâ=\óÀΩÍõªŸèΩ+Íº–úË;‘D◊<ÍN|ªa¡Kæq‘÷ΩqTj>Ëu>l,
+æƒDä=W|ΩDÌëΩ’â_ΩMΩÊ»±ºEë§Ω”ÊºãÉÊª©^ÅΩ°”÷<Ô∏àΩ«.6=§µÁ=¢>B†~>˝∑‚:≤^>7H->¥ ˚= ı>≈Ú|=ÈâΩ°Ì›Ω®{Uæ'@~=aïR=ﬂFBæœ~<®>êΩÍËØΩ⁄ÿ
+æ◊”:é"É;ö'∂ΩèA}Ω˙;æ&çåºÆΩz%> êøæû˛	æ√⁄çæQæ~c*æ€èbæx„Àægˆ™æÿï•æﬁÆÔ<3€ï;ºwæVjˇ<mîd=1:	;¨Ωòè‹Ωº™ôº;4>[¡mæÑ¨mΩKó=ú®Kæ6I>#ûøΩˇ4BæbT8>¸Hµºö?à=`”úªì4èªâÉº‘∑º}]ŸΩë˝&>	)Ω≥µˆ<G{L=Ø‰É=›7OΩŸìΩ/*P>Oº=æN»,=ó∑Ù=Ôqä=Ò÷j<Ê	>u~=*¯ô<Dvú=‰∞y>AzåΩPDr>q Y>\;!>VìΩDì7>™†æ=cºª=.>ƒ:>ﬁ∏ÍΩ˛ÖΩ0,æ±1Õ<7Q<‡û=–aæòí:—ˆ¥Ωy»;=ÿó¿=êÖ∂<C7Ω¢ªHΩû€à<qˆ„=Q“Ú;Â2Ë=Ω=u=Ö>õ>¥∂º;l„=œÎ¡ºI4ßΩÖëΩ6Ÿy>¥hV>ıºü>äúâ<LÂÌΩôæiŒáΩ!y>6V˛<«V⁄<]!>i÷æsƒæÏ=ÖΩ¨_‡º3[æTià=oñΩ»!æ+Ñî>◊®G=Õx>T3<kúv<BQ˚Ω¸~=¥´ΩÛßã=‹†ïΩ	ùÑΩÕr=©ãÑ=K>éß<|Vñ>•æì=NtÆΩ#⁄ΩÿO>–(jΩ»Iäº∆ˆ≈=øÖ>y_…=Î◊‰<'H=Ãt`ºMTìº!Xˆº§¨ >˙çä<7—¡<t3„=OÇª‹˚Ê<qw»Ω&%öΩñ/&ºˇΩ=áâO>éAæx®ôΩAX·=]≠dºfπCæ[	pΩìx>ˆ∫òΩÈ<$æ©/>·-˝=Wæë\3=Ôﬁæ√KÂ<Y;ˇ:bíﬁΩ
+<ì=’∞âæπP7æ‚$ä=gNo<Á≥<>Ë|; Ef>Ò€¯Ω}iƒºGU>6b·º°úöæ>htΩ8ÏÒ=Ä`Í=˘˜ö=dfΩÃ⁄Y<ÿz=5W±>–òz>e=Ωá©>˝mRæï ΩË≠EæZCu<]àÊ<x]>Àåº+ÿæ<ªúæ)ˆJæåtv=cm]=Ö≠°=n:bΩß8LΩ⁄·=Õ…}ΩÁŸΩPkΩAá=:úΩeÇh=†Qæâæ;àæáS>0ˇΩ:Z>aÁ‰Ω®wÙº«~^=ßãF=©Gø=NF›ºLb∆ΩÍ£ﬂ=±ˆ<ˇ ΩR=*æª<”
+&=ì´V<ΩÅΩˆ„=ºœê=a∆\=™oﬂΩ·5Ω\œ>{—=[‹=Ï∫|>ÖI=€S=`Ö>∂ò¸Ω÷ªs÷ªﬂÛ&æbˇ;`A>–â4æW	?>‘Ú<®)OΩ~ôyª|›Ä=‚#R>{Ñπ=±>HÓ6=Î˜•ºî‡ΩÏCH=zó¢ΩODΩNΩã£√=ıuÕªV»ùΩiÎπº®s·=SK<#kº‘ù5<é!ë=ªR4Ω‡‡æ1âΩÅxº ü´<¢UE=GçÊΩÅﬂ˝ºá;è∞¬=Ì≥#=’›˘<(R<Ω,f¨ªu.˚Ω`i>æÛgn=ó¿æ,©÷Ω+ˇKΩí¨Ω$=81ˇΩØ>z¬Ω&î>–©Zæùw&Ω‚1ç> hµ9pt=5§Ωåmæfktæ¡‘ãΩèÇó<0Q=·E,>yÊäæÁM}º ±È=‰ˇ)ΩNÇ->®a2æƒÄpæZˇc=ÿ17<Õ=:´ˇéΩ2«ãΩ≠Îæ¬Ur<—»t=»ê†Ω0ÍΩ>Ü$ΩêáÕ=”æ,ΩﬁzºÔΩ^î≈=kûå=≈æ˜R∫=»∂·Ω}# æs¥ZΩ-A æãé+>t÷u=,ìΩÑ∑∏=ÔÚ2=øhª«{h>+&À=7„Û9‡Ω%í‚ºxN(ΩÚÙ™='Ìºz^ãΩ@Ôm<á› ΩÄ∏">d-Ã;èíb>;Á'><ˆΩ–|™>éâ>V¥Ωå7o<M´R=Å ßºçﬁ∂ºÛ7æiqK;D9~Ω-ÚBæÌ1=qw=$ZΩ*˝B
+learned_12J‰†˚‹ΩoÇˆΩ†yŸ=A˚@>ÑvºwàÃΩƒË¬<l™=bzΩ¬qè>y#}>í¬∞=ÖñÁ=/◊C>áC>±;?ΩaW)ªNÕæ¿`Â=÷ªà>¯◊C>FaŸΩüºH9Û<Ç·];BJΩ°YDΩfΩ¡>|±é=U_=(∏æJhæΩiMà;g¬=˚˝ºvr=: ‹<Ia;ÌÅΩº°˜ö=∑ÈºNB=®!w=a°Ωö∑(ª∫(ΩH≤<Ω©∂Ω›4>„ =pÿº®V¡Ω‚bΩcqô<Ûûy: M·ΩöÍgæÈñ=pÆµΩ?ÅNΩì¶=æíÅÉ=‰≠.=ñKFæËÑ§º	È∑=¿ΩEƒC∫Â‚[=\>/…µΩÂÃ<–ìŒ=ﬁ¨ΩÔ÷∏=.≥¥=Ø˝&Ω&~»<°>ìÏ≈ΩL´aΩ∏ü“=°Cóæ»l=iY>Í∑æº
+>Òg>∫Wtæπ\>Â≥~>äé;zÄæ],e=k]Îºå'ÁΩpÍƒº∫g/Ω¯˚Ωœ&TΩà@¨Ω=∆¸=xs¸<glåªŸmΩ<l¢=I°<’Xß=ÓJæΩ%D!æm$	>YΩ%¸æiÒ2æ±‹˙=d"ö>`Î>ÈLæ%Ú=;#„=çM?æˇMùΩˆƒ`æ-∫ªòWΩá√ïΩ™;>NyΩr^ì∫"Ú¬>V"¯<∑¶âæ≠Y“<–â=@VÈΩp∂èΩ∞%ΩıA>%• =ù·ﬁΩ˛ªÕ™MΩ± g=U;ê>˚:æfÈiæ≤ÚÔº˘©>gW„Ω7èé=£5æ<›=ﬂò>Ò§æÉ->AÆræÂrﬂΩrrm<&G =WQ^=∫8>z6’Ωä»ë=ó¶Ü>mwΩ”¿Ù=º=Õè=`Ê=∆¢≥Ω◊ÃÓ<>©ß>QÅ">\—jΩvæß¯f>‘^<G†)Ω€ n=µs/>4]D>›·>àúQæó©µ=°K*>=ò»<=ñuΩ0\ø=ª0Ù<9hÎ=síΩ/Ë‹ΩﬂJ…=¶Ò*>y0◊=k∑4>.Jàæ˜¡Yæt∑´Ωπ∂Ω©fª¥ò—ΩWLæ8SÂ=œv(æÙ∂÷=Èfx>ﬂæC+∏>A0=ÃC±Ω^°v=ÿÖ=PQæ;æÃΩƒÓ´=ÖÅæÒëMΩi‰>C©L;+Ó∫÷w>–zHæ(!Öºˇi=3">+·=h-@>∑âo>÷é>®.>	¥¥9„”æ‚ñ”=ÚµñΩ ÜΩKöÍºgÄÛºÁ4˛=˘Ä>¿^÷Ω}®“Ωy&ΩWX|º…Tú=D◊É=sˆ§=üo†Ωc =æËAl=·lÓΩ[›¸Ω·Ñ°>´Jæhô«=|5<òèNæ¥ˆΩOC∑<dÎP>‘ò◊º-k˘ΩÀA>á:„Ωá∆≠ΩNΩË<?ÙΩEoEæ"Â<É‰=ŒR˛<`N∑ΩXæäºV∆∫æñ¬>Â«ºÿ>e>ª˘Ó=wŸS<é∆>§Ä=$ï:Ozæ>†?ÛΩΩUE>ä´6æB·Zæ:T0æ@v“Ω(èP;ﬂrƒ={ùØ=e8æ^∑˜ΩÒÿ=NÒ<ΩÅGµΩ˙•¸ΩUÙ>Ä‡ æÕìΩ=Æç™=$s<>ó'ﬂ=¿ï¥Ω∑¿3æì{>'?=iNÀΩ}ëó=3cE>π£ê<É¸ºrÌØªó„HΩ¡µ>ÇˆXΩu9ìΩõì•=
+e<æØ–HΩÓ9>∂øSΩ‚	≥ºk˜ì=ò¨gΩñúΩb?ºÆD˝Ωß&\=`≥QºïyØº6∆∫Ω•”À>1æeF_Ω≈“i>±Ã"=[Õ·ªäjΩöËà=’ˆ=Ó–=à$æÿõ<æÎÂõºÌÕE> y®ª£æ`ûâæoõ+Ω◊}ÊΩ∑¯„<‘F>ñ´±ª–æ	>x>ÉB_<úæ`ΩC™B<¡ˇ^>3f==ï&>˝≠*Ωº©°Ω–∏»=»Ä?æîs'æ«á≠ºFWÉΩÌúËº≥ú8>«å∞ºÏ‹‡ΩûR«ΩÁp£<ôˆ0=∫æ>c`>bøÕ<˘ôΩ¨‚Ω…µYæX…¯=J∂`8:V”=ë‡=Ò'“>∏=>wXB>ãº!>≠)zΩ	7Ωxzì>ô|æ\dòΩÜ=µ;◊M>i\æ§•≈=|8°>|KË=ıÜæ9â,æ˛√(æ∂≤=~aƒ>∂Oä=Æ´æ∆ï8>¨0RæPfàΩÕm=«05=0,Ω˚<Ih+ΩÙh·;™zäæıt≈=≥mqΩ7ﬁπ=‡É=Åâ>æt[è=‹ﬁ=X44æN∑ºaHn=Ù˙É=∑≈Aæò¿ΩNïΩï«ΩÍK>üæ‘LwªÍØ>ËF">9Îm>q∫L=*êBresidual_layer.13.conv.weightJ‰ëtæ7©∆; E=Ω¶‰ æ÷£ìªœ{Ñ<MÇW>ë[>kSæAj°>ï§l>~h√=œ”&>Â>Í≤>Újö>›∆
+>.ºº¯πI=/âΩ[r8æÊnΩ{ß=Cø<^$æ&ó°=b√∆=ßi±ΩW™æi>|)ºúôæ\fä>≤µ∆>œf2>y¢ò=Ô	æºò?æA5N>é±≤>X	>‹ä=«e=!˝Ωù[7æy1>˘å≥<õëÆæ|$ì=≈yƒ=ƒwRΩ˜=”æÒÛl=ﬁ(w<5W
+æ˛ÌÒΩj>›i>»tà>5Û}>«R™æÎç>ë—@æ¢æÄ=ös=zO>Ñƒ˛<ã>ˆ<ÃQ˜=÷©Ç>‚!∏=À‡•ºpΩQˆΩﬂoG<BV*ΩÈˆ=Ω¯—sª∆4z=êæ˜˙ æ_…ÚΩπ∂ΩÌ.=>®t9Ω13Dæ-ÁΩ<ı»∫e^>≥NÙ;!3ÿ=%AΩEñé=ß°¥ºÌ©=∫JÄ=øö“;çú>Æô7>wª«Ω÷Tªé◊<KiÀºJ°2æ˜^=\õ«ºKXPΩ\¬>’1ßº};^ºÍ.<>€>j÷k=åv„=èæG—ºH
+‡Ω
+ÿW>˜òΩ-7–Ω≈º#u∞Ω,	@ºMπµ>÷
+4<ÛC≠ΩyÈæ‚Zîº… ræ¢ŒB>8Ç">GYIæ ˆ¥º¥¥∞>©áº˜aìºDc=¯X=7h=´ÀΩ#-Ö=,„ñºtQÃ=∆‰Ωg*=Ga=ÏøçΩ^méºÖ∏}=yôΩ0≈Ú<•Sπ>'#§æŒ¥dΩÕò•æSOº= ôŸ=¸˘=˚ºá=ÿ(>p6öΩ∏ˇñæ1¢Ωiæπ=*G`>ŒŸy>Gü>d>•Áì>µFœºÕó<ÜÜÌ=Æ≥=|MãΩ4À =ﬁèãΩjª#æh+=/<ΩÓ‰ΩóZ
+ΩœUﬂº¥e∞ºÿåæ·€]<èLæ‚óPΩ
+^J<˘(>j>Îº?ú=FÇÛ=(Èòæä‡´=_‹Öº?0æV¿º£¯<w!:æ0H=µŸ<yc∫ºkÉΩáÖ<ãç-=`¨l>#-å>#K∫=4Ï
+Ωuyv>zûN>rÏ¬ΩÙ[∞Ωóëëæ™Ì∞Ω™;p=≥≠'=gQ4>z>æ[§%=Ö|@>¥≈>}&Ã<1¡æ†§ÙΩåÙ@æÌò Ω⁄ˇƒΩ∫ÙÕ=‡3ΩgÅˆ;(+>ªúàº~Ó„Ωﬁ‹ƒ=∂Ë–Ω:9õ=ª¯æ÷G>Î1>¥æxpÔºﬂï6<x©=_$Ùº\>/±JæVææ?ˇΩDNãæøá1Ωµ=íΩÚJ>˜uæ[moΩ®.Y=Ó\>âCæ%?=TK‡=EÅ	>vß=„Ç@=ﬂô(>Ë?Bº3"íΩÉ√Ω<…Ïº!À:|‰}æŸ¶ñΩûÌº˜Ëã=gB[æ2]b>‘S¿>Î˚êº'ò’ªÙh«<ÿœºs;EΩõs¯ºb√Ω«ñæó;˙Ω}êºSÉ¡;À3#æÉÿ¯<Ê_S=>ÏK:®Gπ=.j-=‘AºπÃª?ß§Ωb¡˛ΩŸÑæÁøΩà:£<ééæH⁄3Ωó
+ãΩÇ·Öº¶òœΩí¬º◊˜M=√©Ω¯¡Ω˚dsº√∏Ã=‡KS=CW÷ºOj>µÛ>ÿïß>◊⁄ºLƒæw3ﬁΩπ =O1(æºCß=g}à<á@¶<›ÀΩΩ%®º˜mΩ1äUæ≈≥>,8>=ÓÍæÉQæ¢–;˚gƒΩiU·<QâWΩﬁßT>(xæ~ÕN>ù;>¨Ø>¿∂4æHi=:Å—º∂Æ¶Ωûúû>øõ>óª∞=Ñ'ìΩ à“ºÎºï8≈<1wñ<ü$œ<‡≤º	è/ΩV{Ò<«Õ#Ω›s∫=7¥æ7‚º‡aâΩÚ$îΩuì=Â4&ΩvÑDΩjFó<P˚ô=√ﬂm>ª)>Éj7=ßWá=∂Ü†=¡S#>lñú:Wøì=8–K=V&É>°æZ˝ >^ì&>(/øÃÚæ.O\= êá;A≠‡ΩÜ˝ô=ê®4æ=;æËé=™Û∞ΩèT¬ºOTfΩŸÇ<òêΩÖö=/WΩ=5 ﬂ=™C`<)çE>ºπ•ΩZ]<ŸÏc=!€C=≥R@>¬>æëˇ=9\ó>Ÿ7zΩBiª<ﬂ7(ºÒAæ˜l°Ωãæ÷Ωz®%Ωˆº‘ΩÀÔæÓcÇΩâmÙΩG∆ΩÖ¯Ω 3ôº
+z.æ`Ó˘Ω•Õ>$Q≈=Û(¢>
+<ÄOéΩ!‡!>z∏;%¬ﬁ=èµ®=‘£∑>]Cö>Yà>∫√í=ów<âäBº*êBresidual_layer.14.conv.weightJ‰§÷ó;1Â<ı( <c¿Ω"∂<=ìM>≥Ó>=	⁄Ü==Œª=ÖòΩAc	Ω≤BΩì ˜<‘VI>ê‘Ã=ÛfEΩü¯≠º†øE>ﬂ5=æ÷∆É=àÆëΩ≈¶<2êΩ<iˇΩXïnΩ‚‹√ΩÏ$æïÌáº8>È¿„<¸Æ≈=ºRT>àú >
+aôªØ=N=@|Œ<¨ÂΩsüïΩ˝GΩàD]ΩF0æ…ÂmΩ√%óªˇ
+æ¿ÿ3æg‡€ΩòÖ‘ªAﬂ{æ‚≥æ‘4Ωs£ÿΩ´6æiÎ>ÃDUΩ
+õü=µy€=Uo>•ÉÉ>rb(=üWÍΩÆ|=Á—2>û,≥æ:ãæìﬂtæÑ◊Ωe0gΩÕæ∑xRæ∂—‘Ω:âÈΩò∞"æà+Â=bÍå>
+D1æö8O>=ô>uÜŸæπ¡îæUyˆºˆdâºPÔ$Ωú≈∑= ˚4æ≥≈QºZæ7 GªÔÆ >o}>ü{¡<“éæÜ¥>—Çªe&Éº@…=R;À=ûˇo>ç>Í$7æ,WæçÌæè∏8=‡™Ωå=X>iK>≤˜_ΩÌ˛èæ&w≤=ßëî=ƒ˜˚Ω.<Àº<E>ÙQ>◊p‚<?’'ΩPﬂ‘>ÈSï=. j>l›…Ω¥$Ω‰¢PæÄoætG>j&æXn>§%Ω±p=>€>g0Ω<2õ=P\;=Dm¥<‘ı<¶®=∫jº./
+>éäº=)}ë=&Ù=È„	<;î<Ë‰æ–’kæïYrΩKÎ©=ÆÏ<ì÷≈=‹kÍ=’ﬁŸº6F¥=˝∞æeÚΩ4ÿæiÌ≠Ωﬁ4ºwY'<{”Ωy8Z>C->¿ÊÎº˘ûgΩ‰´õº†nâ=«E=˘‰Ω<˙—=‘áΩ‰å9ÏÏ‡ΩvCDΩ‚¢üΩ+òÆær\RΩ÷kºw¨Ω¶~5æ§Ks<wwô>\≤G<∞¨< E>áåÅΩ˙æå:æRyÊ=&2SºrC.ΩÊ2œΩ{òÁΩ‘π5æYó,<Ûíú=U`ûº√Ñ"Ωÿ∂Ω≈R√<≈´ΩmU=<í(>oπ±ºL»ΩÀ:Ω‰‰gΩº¢k< C˛Ωå≠©>nw;≤	q>œ`ê=˘…îΩsç~=}ú˜<”ô5æ∂ﬂÓ<∫ñΩÃ°ΩÔE>=…∑&æ–@ì>ø3>ìÇ]='0Ç<%®ÅæiC>¡ß2Ω ΩÜˇÚ=,Pæd¢Ò<C∞i;∆#ÊΩ˙(›;õî≥=‡Ú<0éåΩˇ‹Ωq˛8ΩüΩãs=Â`Å>‡©æ•&æ`çX>ÕnSΩ⁄7î>‚€ò>!€><Çª¿Ω28=s˙=•ÙÚΩ˜ú=™|öΩäkéΩ-ªàΩ∆H&=_##Ω˜…<J<ΩﬂÙ`>QEæ9Q“=Ω,≤=)Ó!æNY;ΩóW><ÎµΩ_ê=ÒJ(æ∆◊˛;”æÛ¡ÛΩŒ2Ú=∞Ω	Û<,¶>…dD=t/ùΩ–6}=ÅΩÄ˘ÀΩÊ&‚=»:=ú˚°=rg9>øé>˚òΩXïƒºÁà«Ω:†√º&é≠<ÈÙÙΩ◊€º¶µΩ‡π1ΩU3˙Ωm¬Eæ_∫Ω®
+æü§æ¯¯K={–VººÌ'æAM¥;œÒ&>¶√Ô<v±«ΩôÊK>C∏ëΩ9 πΩÅˆ\>=MG=Fâª=R-*æˆßÉ=2Gbæ„1mæ‡,?æ¡;ùΩá“Cæ]I<∏£ØΩ∂ºI>Wˆ>Öoﬁº›,<‹Î=i¢áΩô©=¿.>>ß∆=p´Ω≤¬+>;ˆa=d‹ Ω¥ñf>YøÎΩ*n:Ωæ9>eQNæ%˜í=‚é>mí¨<B.ª
+>∂ºèŸKæ*›S>5¢º‚æF[®Ω§GæÇ–Ωöz$æ˘®Ω—hΩèæ‹@=◊∏LΩ3_:æE˚ÂΩø◊ÓΩeDÔΩﬁÊÈ=Ùãìº“ëæΩÕHæ⁄=¸È"<â*ﬁ<ù©=˘œ=Ó¿∂=∂>lˆºÖ:Ó=P°(>¢;<æ£†˘Ωbáoæ%bNæE˜äΩi“?æB4SæÓºXHæq2ÜΩ÷—æüs⁄=é∞-ªò‰>ﬂò?>F¶*<j√z<Øu£ΩEå¶=,I¢<2ad=møB>D€8>ﬁΩ‰>1	∫ºÒÛΩ≤∏µ=∂Ÿ<–˝©>‹s@>Å2¥<ôû@>3_<ΩntBºî/∑=TÒÑº†pæ'gæ`;,æ¯rTΩ%r$æRÆΩΩnävº∆ï”<hßæ5A±ærπ=»ˆàæ•U‰Ω(Â=Ôk$=≥™º¸[z>ˆÓáæ§>Ω˛A◊Ω≤ª'æåﬂæ|vâª’]°>Óú≠º€!>*êBresidual_layer.15.conv.weightJ‰"ÇΩ’¨Â=‘Bû<u¡ æ!d>,Ã*Ω˝Ù¯=_hâΩWÊŒΩc)¥ΩQ◊ΩcK,Ω‹ ‡=
+>˜ºæ<Ωª!g=ÉÒ;ΩS
+%Ω™ﬂ=˚Ä3>xıúºüY<;X;o}>¶¬ªUêõ=)ﬁúºÀ¯=ºmòΩ$ºÄ=®™=|'æö∆Ã=‰[Ö∑õQ=ìá-æ˘ò‘<rn=úï	ΩRl=∞4=)¨ï=º•D>/–i=Z5Oæ Çª=™≥=ΩL¸Ô∫!Ω™VÀ< ‹æ‹ââΩÎÌΩ›e<◊—?Ω˜k<æÌâúΩcmﬂº€RËªé3Ì=˘óïΩXë¥Ωtbñ>ÉK=&≠Ω}Üƒ<«à≤Ω$&0ΩÕKΩ=Ë©ÍºGŒ^Ω–rΩﬂº∂áΩbpæπ^Ò9ZØ?Ωä∏CΩ™ræƒê√ºaŸ'>G?Ω≤xàΩy–Ó:qÇΩ‚àΩ‘f}Ω≈∑,æ@Coºmvº•U`Ωshj;ço"Ω≥¡=ıñ=B:">±‚=√î Ω·%pæ„¥º˘À˚Ω!—ÿΩVòΩN◊àΩ∏®=Eh<Ω◊Bæ,9I=OŸÉ=û¸æ‡P¥º!’5ºëÌ%æ->$=HwΩòêæû.4>ê˙∂=±G>´F®Ω/ÂΩOÛãΩé/ΩI(ÊΩÍ:◊Ω∏/;©lë=rÌ≥<û0ÌΩYOáΩ¨ÈîΩ^Ω
+¶9=Ì‹8Ω˘–|=≤ÓXº}2áΩØx£=∂oõªnë=Á~2>,ù™=ç˘RΩ∞æÀD =ÛŸ>æ#ÔnΩÁÚ<_ìñ<ß>æKqº=äæ-s.>:ÆÔº_PÆΩW~œ=˙víΩZ√æ9ΩÜÓ<æB&æùu=/Õ»=#ø<h√Ω›[æPK‘ºt›Ωykæ|E¿=ùC˘ª«É>7Ów>Ë‰<öæ«Ωeú√ΩΩ'π=[¨©=ùÎt>êÇ>(–o>ªßª>_æ%æÓ∫ËΩç˝·<Ó´>æœ=∞<ÉMœΩ«æä>Ë_ëº¢4xΩ-é;÷∑=]ÙºŸΩÁΩ »#=Í±K=U·Ωy2_Ωù’|=;&ìΩÔªöΩÆ–.>"6Ω˜,ê;ñç=‘Á=‡Ñ=∆ =ã <n®=O•õΩ'¥<ﬁ¡>‘Úä>ß∞\Ω
+2⁄Ω…Dœ=¢¥çΩÇ#æÎé>¢}à=t©¿ΩΩ∂d=.wΩ}pΩ“ü©Ω0ΩÄ=Wº<ÎM®Ω°S=‘≤ΩÿTÜº,ˇæ¯NX=µIwΩπ©ÆºÕÊìº	"=ŒOΩºm4æ¥Ûó=ó ü=≈r€º≈
+=TΩGB`ΩfÌµ=Ü
+Í=^¢æUCΩ◊qæ3˜ºÄnˇºà∆ƒæâÀÀΩU¥°=.D=òd<Mÿ ;ôM≠=4‹;l±V=@J…>ÀØ
+>{4>ï¬]>éi>Q„8<èb∞ºí‘îΩÖ)‹Ω∫r&>ô¢ΩõnzΩª‡[ΩåeõºkŒ˜=qzº=r¯›=Byƒ=∞rÆ=ÍÕ>≈˙<ı|.>0;=Ò⁄>œ]6Ω∑ôóΩÁ…=Z¨>˜>8‘…º<©<˝j¨Ω≤Q<≤Pæd&æ>æ•Ω§v(Ωg∫RΩ«åLΩÔ&^ºÇôÀºÀæ'Öä<*Âºñ˘ø=±?;>Ö AΩ≥öV>U%%>^€=Ö >.∑«Ω”Ë+æ)—hΩ∫’.>cá∑<Eìÿ:ì˛»ºékµΩ
++õºˆ◊üºã,˝<ÇÌ*æˇ‚<#æﬁ=Sl”;ñ¢>zÿ
+>ﬂ‡ù<¶º•Ω$î0ΩN‚æñÏ!ª(@Âª¿Œ=ÄBZºÖ˝ö<Û<°:>¢Å>=d∫Ωƒ==J=t©∞<∞÷õ=<A><ø;=ç≤I>‘z=ÎŒŒΩ?uÏΩö¸•=ˆà¡ΩôØ ΩûF¯<!Í˙=3:>60<æI%T=‘¶=lWæÉ8⁄=:Ú√=SAT=ûÄÈ=i*f>Ãïø=·›”ΩQ€ﬁ<V\=P⁄Oæ<ãΩ>ÀÇ<ÖvûΩ¬Ú"æuê•Ωiß1Ωh”=Ç¿Ω€sºñ¥r=Ù9Ræ˘óŸ=≤\∆∫î.ô= ¬r=	ç <0¥;:˘∑Dæ$§uæe”>ºØµpæ? †Ω◊vßΩ)ÇΩ≈ß=4(ù=M{ºıKæ™6±ºOjê=^∑}<¡∆Q<ë◊D>ˆ\KΩÌ∏à=û’∂ΩQo„ΩÅòΩﬁùrºWò÷=ˇ9Ω&ÏºÒJ∫=¯T≠Ω£±?æ ÏºÙEQΩ¡œ>N1Ω]q=:/¸=›mÁ=·JΩuÓY>ÜÇ@>II<6∫
+>_2Ù=Ω√<h˜=â4<¢Ö>> ˆî=£cΩ`[=*êBresidual_layer.16.conv.weightJ‰u,˘=¬∏œºÁÓ*>b0ƒ<nÄΩ,≥ﬂ<˝Ø´<·ÕN>ˇçGΩ Âp:}∂à>%µ†ΩÒœ=L= ÍÆªÃq
+=>vI=.°=ØKºîÏΩ…ÖyΩn[aºîﬁp=∏∞k=‚ûı=°ΩıÅ<8@ñ=4ﬁ
+Ω=Çºº5ìΩÄ@¶º`µ!æÚπΩΩIΩxÄ='> Èö=H'>ÒD¥=≤ﬁc>RuÅΩóQΩbK	>F°œΩØto=ç)ïæè"Ç=òîº=`g[ΩE™Ä;[ÌΩÛˇã:+!GΩY,áΩ<$=ÿ|@ΩÕnMΩ~˝a=ò≈´=IÈÕ<@AæÂßbº*
+æXÿZæ√ÅΩ\∏ºÜõ	æì[!Ω„,?<Ø.˛<‡u∏Ωç!=˘™Ωœ§∂º∆“˙ªA'=∞±Øºﬁ√ÜΩö≈©=ƒ~%=Òº=«q•ΩŒ«¿Ω∫¥>s>?ΩÑQ’=X@k>¡+ÜºˆÏºË«ægEÖ<L™Ï∫`'ÕΩ3ú?ΩJÊ<é§%æ;K§ºÁo¿ΩãÓºNV“>ª >“cöΩò˚=r=(d;=ÊQΩ‡RU:û£æºêΩ ·®ΩM:ΩDµ7æG'£=ñBiªe’bª;©:XæΩﬁ\æΩ∂∫Ω±9æ…∑≠=œT=*ßæòÒΩ1{|=QÒü=Ïa`=∆ÂèΩ-ÛÈ=&M=ÊçΩä≈=@?ˆ=ô∞ñ<z¡≈ΩV`J=Í˝æ;÷w.æßdaΩ©WƒΩGõõΩ’ïıº›¸®=∏"PΩ7-æ.ÌΩm1ö<“UÚª‡èáº!b=9¬é=<0>9Yt=øÁ°=a°∆Ωå€%<æ∆Ω∑ﬁæOGË;C…=R]æqHæΩM5>Dj>ÙÁ$æ√’@æjz#=ü<øº.∞<oÔ¨= …=ÄŒ æü¨Xº˘∂}>#ûu>º?æÜ=>d8≠ΩV¶Ω∂πæ45mΩ±á
+æ¥¯.æÄS/Ω˚¿º£L+æ˜ñÅ=KO>E›=/GŸº⁄ÏÈ<òC.=N—Ω=U•ΩîdP∫6mË=Ωº©=0MÉΩl-2=Û«=æﬁ	—=á4¥=Î˙Ω˘≤9=,;8>n,>2Ó{=ﬂÄ&æÈr æ™#Œ=7Ó⁄ΩÛÈÁΩÙ#o>5BáΩ-LwΩ√6Üº∆{PΩ 4NΩÏÜƒ=->Ø=Ò==ß'=•TÖΩæs‘ª\A√ΩT:>†√}Ω§ƒæö){<ÚàåΩÃ|Ω±Aù=˜áN>Ø=>o´=â ëΩÉÕæÎVT>éz9Ω*,ˇºuB<¯ıSæÎ Læ?æ]Ωﬁf=Zu=Ncë>ØÅ_>{8ºêû=
+|`=z°Læ;%>Â÷Æ=/›ˆΩˇV∑ΩÁ›Ω’ˆLæ~Z^ºò\8æP„<H–e>ô!Ç=–¬b;O Ÿ∫è£æïbY>jRT>Ìg=ë\‹<&í<GKøΩ¿Ÿ+Ωˇ∂PΩ^6>6<ùºíˇå=Ue≈<ªä>ìú>YŒˆºaﬂºCÖ9=íÊΩ”µFº⁄h~æÚf¡<AFQΩI]≥Ω…Ô>rkX>
+)[>Â!›=	 8<wÇÕ=V“X=6€±Ω(ÕÓ=î6Œ;;õqºå4ò=ÇmXΩ∞£4>X4§Ω¿Q=¥€Î=e§‡<¥#=Œ∂qΩìqQæù…∂Ωﬂ¯=]?Ùº‰⁄lΩêD∆º“5>yæÂ3?<√,=£∑;SêæY«Õπ3Q=«µ,Ωjnv>Æ–3æcMºÍ	º4ŒæH^Mæ,« ªKi'>ÑÂ;ßΩΩNlΩÿj<m≥«ΩÉ©Ôº¬zΩ… Ω“ñ =+ég>ﬁ¡=πƒ>ûj≤ΩÛV®ºãä≈ΩÏC˜º	-˛Ωc‹=b>àæÀ—æ˝8=Œ&í9 Ô†Ω}P’<ÿ>0|ΩDˇ>|öY>;≈Ë=Åi>1˘=>Cñ<\N¨ºïh>µiy=$˛ñªÈœè=ˆ•<ˇö	>Xáõ=ûd¥=‡åJ=õÕºÉ"lΩ_I=:®å=»Ä=j¨h=4ÏüΩ$üΩÌyΩ†I ΩKâEΩ*îΩ4ß∂º)©•=·Rü=∆S“=ÆIÎ;˚ÇìΩÑp’<Ä±÷Ωp∆1="ÓñΩí` ΩÑ√,=º(=y9≈Ωl]Ω==÷>’|=z9I§ΩõQ0ºha∂ΩÈóÎ=¢…Ω4UÜª†" ΩØ›·Ωõˆ⁄<ªô6<È_ÊªÍS¢Ω0‹lΩÔ‡Ω&H^ΩƒJ≤=}ÚKΩˆ˙çΩ-XÂºqóÆº~;ˆ<%ËrΩ¨Ωz˚ˇº(]∆=ŸΩHI°Ω&ˆZΩ}æÖ=ì∫m;vÅYΩ3Ã=*êBresidual_layer.17.conv.weightJ‰Õ=A<^î=&Ëx=ˇ¢ﬁ=é0m>q(>$—xæ∆ÚΩ„˜
+æ˝z4<⁄¢¢ΩPKÓ=ò:>|MΩ§Ê æ@Ï∏=√Üºv/IΩÆùºˇÈñ<V˙ΩH©Ω˝GL=ˆV<:ê6º–±“=¡ËÔΩ∂ØΩ{0…Ω£Vüºìºeº2Cﬂ=M¯>˛3÷ºŒ.>ãC=¬§<§÷Â=:ı;Cè=\€æë Ë<£’'ΩÉ8«Ω{‘Çæ(4¥Ω∑hÁΩ#Q®<8(«Ω®€’Ωal•ºW†Cæ≥âΩ˜PÊΩH«óΩΩ…k=øxA:ÚàP=Êe=^á„=∫tÉΩ©¥L;OÙ<'∆ïΩtxêΩkﬂ1º¬Ü>ò ¢=≈¨Yº:ÑΩ[†éΩ{JNΩëù‰ºK4´=≤†1>ßsåΩ!>∆∫->pßΩ8îF=˛‰Ì=y Ñ<æ>ãœ¨=˙äÎΩ}ÊŸΩ¸˚ß=6£V>¶?√ΩºÆSΩwÆÍΩã$æ_ë<^ÿúºYT˚ΩLev<x¥¯=Ifv=“c≥=MG0>ñZ>îX‘;2>∫nS:ë-Ω&=>ÂóΩÄ»Ω¬Lñº‰íº∫6<m‡ºªÂæZKΩ<Å=Ügu>¿∆=Ky∆=∑/l;ÓÅ⁄Ω•ﬂ‡=;0º(å=‚9åΩSîaΩ…§ºΩ=ı$æêıÂΩmõÊΩ≤∂Ôºàï˝<åºlæ√9E=WÂ:Ω8öΩ§Ì+Ω#p#Ω«åΩËO˘=CºykgΩ≠O)æas=∏°8>:B>WdVæ=]=4dâΩ/â>Á%∆=F˛ò=ºµo>¯˘üΩQ >H =√'AΩx `æm˜W=∑"åª÷7ÇºjÓ:ΩR…ºN/„=˝îÅ>êv!æ®óªºÒ’=Ø…™ΩèÙGæ,`;Æóº›1î=«7º$[çΩÁ9Íºl\æ©Û¶=w√ôΩÃ¡ΩTΩ9ëΩG•º>no=NÍïºL√º_ÁÎºËå¬ΩÊ≠=Øjä∫ÎY>1ôKΩ˜¿Ωb]
+æí¿ıº¿~w=Ü∫ù;¡òºó“êªÜI
+æ\ÛF>ÂÚŸ=h£Åº¡Ÿê=F'⁄=M<Adw=iˆ⁄=∞¨<ÍB•;üO÷=C≠ÑΩ4b = æ$•≠Ω/≈œº ö≠ΩÂgÃ=3QΩ8+¬<g÷=v–G;–ê~=^ı>)> ÉæŒ5Ωø€=`AòΩ€ÿÁΩv¯—=pëV=•h;J£>:œ>æ´ÕÿΩ%N;=1XúΩf=æ&ˇ&æ7∂™ΩèπÒΩUÎ˛=Ã–Uº¬~™ªKùs=Ìù¨<M¥<€q=	ªo<ce|Ωi¨ìº»∆y>Ê»ΩéÜ<è∂'>qÀ«Ωﬁ§VΩ∆ßo;ÅÉæ8‘ˆ<Gì?>w¿!Ω®˙æÚT>’Ô¸Ω†o"æÎ¬V>]ˇmΩ@—~Ω£ˇ=Ud€ΩçÎZΩwΩ5æ¶[æ#º∂I%>{äΩ∏Z+æã:6æ0Üæª≠<=Ïc >fìΩ¨	ΩI3Ø=„ÜæΩ±˙Ω:ƒ∏Ωm∏ºÚ∆}ΩE_Ñ=5[\>vπ$Ω'÷>˚å‡>Äñ<¥lΩﬂk=‚>∑A.ΩøËã=æáDΩ|'6æ>Åè>’A>G5ú=Åé—:¢`}=® ¬=‰gçº∏Y∆=Ã˚Tª&ÆáΩ«N…=Hî>Òµ;âIæ=‹	æ’œ1>©"∆=£∏%æé˚∑=N˙">ó¶•<˚@5Ω∂ã+Ωù§≤ºWú\<Íî⁄Ω·í=sjæ0*;v&ˆΩÿáΩå_=ﬂàæQv¡ΩÆˇIΩøÆ÷Ωπ[ìΩãà ºè”ÕΩ“âΩØπΩ±À¿Ω ,vΩ&Œ&æ O¶ΩúÜ0æ9¡
+æ∆‚6æ<ZtΩædoæî'=C@ΩrÚæqBæÍ ñ<?*æ§¨l=ô§a=ë-
+>û=œ>˙≠Ê<<ªôΩ™È&>ó°%=i.ø=ˆﬂ∑=G£Õº¨í„Ω_ˇ0ΩçÛ=Ãõ´=π/©ΩPùOΩ™£ÏΩO®‘Ωíﬁ>ΩÒ˝Ωß‹>ó’PΩŒ¢=ÁêF>^öÏºàÜá=‘Ù¯=é `>ünåΩ≈◊â>ü–É=7Ç=ã–æÖAÈªaàæŸuô<≠ΩSvÙΩ⁄ì∫Ω´ã™==®‚Ωõ‰Ú<'Œ∞Ω’V±=„)=Ñø=NI)ªoY®ΩÙ/4>ª˜æ§»>Äò=„Ωi=éjn>≥1“ºÒ0‡Ωdc>úD¯=Á4æƒÆΩå°>Ëﬂ4=æ.MæŒÈB<î{ã>üª»=Å;{ΩV>Üﬁ]æd°Ø=ˆ<øΩbû=¯çjº.0<Ä≈s="ÓYºa”ΩøÉï<t”=*óBinput.weightJ¸9(>tMÃ>	¸±æ"ä»Ω∑¶ÃΩ'≈ƒ=V†úΩ[∞∞Ω¶ ?ñ±†ºˇâ'>{|,>iá)Ω^¸>hß™>$MOΩagÏº Ææ;!9æ™‹=PÔ(æa4ÑæˇÅê?S™è=â¬$º<Ñæ› æâa=À#ººùNç=èj?‰ﬁPæòﬂ‰;2™>}mQªØ~læn`=‚∂QΩv‹Qæ7ê˜ΩkùíΩ’Ç<.ˆ
+º´Pd>C	Æº¬æ‘›!Ω˚‰3Ω[;ôû‡ΩÅñ;ˇhÄΩ‰8æœﬂe=|üMºy›= ÁΩ„`æ˙•ΩjüæQ›ΩçÍë=pı=*òBoutput.weightJ¸÷Í‰>˜í÷=w=}”πΩ—züæ√œΩ`eHΩb&«<)ÚºÍcãΩL‹)>iA= Ü6æ/}=Zî<öfcææ^=æøøhæ0Ã:=¡ì>Ç”Ë=Ø2Wæ≥tæÃ¿¢=ú$Ê;B{Àæ”L8<˚5>[rÈ=ÿù=A–
+>Vhæ◊ôTæú∆;>x`æÛ∑∂Ωø¶Q=ØmQ>Öò<>¿È†=,ä>íîN>ÿ	å=π∞=pAÿ=”◊ Ω\ô?>eG1;êÆñæJd›>¸ª=™æ™‚ÑΩΩ;=»mÅΩ‡dÄæçm_æˆ«;æ æÌ
+>ƒ"æö“;lR•=Z*
+actual_input_1
+
+
+
+Ä
+Äb#
+output1
+
+
+
+Ä
+ÄB

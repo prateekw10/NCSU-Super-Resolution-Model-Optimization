@@ -1,0 +1,155 @@
+python pruning_training.py --pruner level --sparsity 0.5 --cuda --gpus 0 
+python pruning_training.py --pruner level --sparsity 0.8 --cuda --gpus 0 
+python pruning_training.py --pruner l1filter --sparsity 0.2 --cuda --gpus 0 
+python pruning_training.py --pruner l2filter --sparsity 0.2 --cuda --gpus 0 
+python pruning_training.py --pruner fpgm --sparsity 0.2 --cuda --gpus 0 
+python pruning_training.py --pruner l1filter --sparsity 0.9 --cuda --gpus 0
+
+
+
+python pruning_training.py --pruner level --sparsity 0.5 --cuda --gpus 0 --pretrained model/model_epoch_50.pth
+python pruning_training.py --pruner level --sparsity 0.8 --cuda --gpus 0 --pretrained model/model_epoch_50.pth
+python pruning_training.py --pruner l1filter --sparsity 0.2 --cuda --gpus 0 --pretrained model/model_epoch_50.pth
+python pruning_training.py --pruner l2filter --sparsity 0.2 --cuda --gpus 0 --pretrained model/model_epoch_50.pth
+python pruning_training.py --pruner fpgm --sparsity 0.2 --cuda --gpus 0 --pretrained model/model_epoch_50.pth
+
+
+
+c5a0pjy8 checkpoint/model_epoch_l1filter_0.5.pth
+1hlb75k0 checkpoint/model_epoch_level_0.5.pth
+lg2jnq8f checkpoint/model_epoch_fpgm_0.2.pth
+1hlb75k0 checkpoint/model_epoch_level_0.8.pth
+2byeolnm 
+
+
+
+python eval.py --model checkpoint/model_epoch.pth --dataset Set5 --cuda
+
+python eval.py --model checkpoint/model_epoch_level_0.25.pth --dataset Set5 --cuda
+
+python eval.py --model checkpoint/model_epoch_level_0.8.pth --dataset Set5 --cuda
+
+python eval.py --model checkpoint/model_epoch_level_0.5.pth --dataset Set5 --cuda
+
+python eval.py --model checkpoint/model_epoch_l2filter_0.2.pth --dataset Set5 --cuda
+
+python eval.py --model checkpoint/model_epoch_l1filter_0.9.pth --dataset Set5 --cuda
+
+python eval.py --model checkpoint/model_epoch_l1filter_0.5.pth --dataset Set5 --cuda
+
+python eval.py --model checkpoint/model_epoch_l1filter_0.2.pth --dataset Set5 --cuda
+
+python eval.py --model checkpoint/model_epoch_fpgm_0.2.pth --dataset Set5 --cuda
+
+
+
+
+# Results 
+
+
+(FP38) [sgupta1@v029 pytorch-vdsr-master]$ python eval.py --model checkpoint/model_epoch_l1filter_0.5.pth --dataset Set5 --cuda
+
+=> use gpu id: '0'
+Processing  Set5_mat/baby_GT_x2.mat
+Processing  Set5_mat/head_GT_x2.mat
+Processing  Set5_mat/woman_GT_x2.mat
+Processing  Set5_mat/bird_GT_x2.mat
+Processing  Set5_mat/butterfly_GT_x2.mat
+Scale= 2
+Dataset= Set5
+PSNR_predicted= 36.33577540722632
+PSNR_bicubic= 33.69039381292539
+It takes average 0.853003454208374s for processing
+Processing  Set5_mat/woman_GT_x3.mat
+Processing  Set5_mat/butterfly_GT_x3.mat
+Processing  Set5_mat/baby_GT_x3.mat
+Processing  Set5_mat/bird_GT_x3.mat
+Processing  Set5_mat/head_GT_x3.mat
+Scale= 3
+Dataset= Set5
+PSNR_predicted= 32.51546973922966
+PSNR_bicubic= 30.40769234323546
+It takes average 0.005658435821533203s for processing
+Processing  Set5_mat/baby_GT_x4.mat
+Processing  Set5_mat/bird_GT_x4.mat
+Processing  Set5_mat/head_GT_x4.mat
+Processing  Set5_mat/butterfly_GT_x4.mat
+Processing  Set5_mat/woman_GT_x4.mat
+Scale= 4
+Dataset= Set5
+PSNR_predicted= 30.278961529432912
+PSNR_bicubic= 28.41454827257395
+It takes average 0.002445030212402344s for processing
+
+
+## Original Model
+Processing  Set5_mat/baby_GT_x2.mat
+Processing  Set5_mat/head_GT_x2.mat
+Processing  Set5_mat/woman_GT_x2.mat
+Processing  Set5_mat/bird_GT_x2.mat
+Processing  Set5_mat/butterfly_GT_x2.mat
+Scale= 2
+Dataset= Set5
+PSNR_predicted= 37.65258649604148
+PSNR_bicubic= 33.69039381292539
+It takes average 0.908837890625s for processing
+Processing  Set5_mat/woman_GT_x3.mat
+Processing  Set5_mat/butterfly_GT_x3.mat
+Processing  Set5_mat/baby_GT_x3.mat
+Processing  Set5_mat/bird_GT_x3.mat
+Processing  Set5_mat/head_GT_x3.mat
+Scale= 3
+Dataset= Set5
+PSNR_predicted= 33.773333767155556
+PSNR_bicubic= 30.40769234323546
+It takes average 0.025714874267578125s for processing
+Processing  Set5_mat/baby_GT_x4.mat
+Processing  Set5_mat/bird_GT_x4.mat
+Processing  Set5_mat/head_GT_x4.mat
+Processing  Set5_mat/butterfly_GT_x4.mat
+Processing  Set5_mat/woman_GT_x4.mat
+Scale= 4
+Dataset= Set5
+PSNR_predicted= 31.464989227343345
+PSNR_bicubic= 28.41454827257395
+It takes average 0.003996944427490235s for processing
+
+
+(FP38) [sgupta1@v029 pytorch-vdsr-master]$ python eval.py --model model/model_epoch_50.pth --dataset Set5 --cuda
+=> use gpu id: '0'
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/serialization.py:868: SourceChangeWarning: source code of class 'torch.nn.modules.container.Sequential' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/serialization.py:868: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/jet/home/sgupta1/anaconda3/envs/FP38/lib/python3.8/site-packages/torch/serialization.py:868: SourceChangeWarning: source code of class 'torch.nn.modules.activation.ReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+Processing  Set5_mat/baby_GT_x2.mat
+Processing  Set5_mat/head_GT_x2.mat
+Processing  Set5_mat/woman_GT_x2.mat
+Processing  Set5_mat/bird_GT_x2.mat
+Processing  Set5_mat/butterfly_GT_x2.mat
+Scale= 2
+Dataset= Set5
+PSNR_predicted= 37.65258649604148
+PSNR_bicubic= 33.69039381292539
+It takes average 0.908837890625s for processing
+Processing  Set5_mat/woman_GT_x3.mat
+Processing  Set5_mat/butterfly_GT_x3.mat
+Processing  Set5_mat/baby_GT_x3.mat
+Processing  Set5_mat/bird_GT_x3.mat
+Processing  Set5_mat/head_GT_x3.mat
+Scale= 3
+Dataset= Set5
+PSNR_predicted= 33.773333767155556
+PSNR_bicubic= 30.40769234323546
+It takes average 0.025714874267578125s for processing
+Processing  Set5_mat/baby_GT_x4.mat
+Processing  Set5_mat/bird_GT_x4.mat
+Processing  Set5_mat/head_GT_x4.mat
+Processing  Set5_mat/butterfly_GT_x4.mat
+Processing  Set5_mat/woman_GT_x4.mat
+Scale= 4
+Dataset= Set5
+PSNR_predicted= 31.464989227343345
+PSNR_bicubic= 28.41454827257395
+It takes average 0.003996944427490235s for processing
